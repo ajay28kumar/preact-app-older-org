@@ -1,0 +1,16 @@
+.headerText {
+  font-size: 18px;
+  text-align: center;
+  margin: 20px auto;
+}
+.paymentConfirmContainer {
+  margin: 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.submitButton {
+  max-width: 300px;
+  min-width: 240px;
+  margin: 20px 0;
+}

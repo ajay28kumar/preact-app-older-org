@@ -1,0 +1,146 @@
+.genericHeader {
+}
+
+.genericHeader.toolbar {
+  background-image: linear-gradient(261deg, #5ac8f5, #5bb556);
+  box-shadow: none;
+}
+
+.pageHeading {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+}
+
+.padding20 {
+  padding: 20px;
+}
+
+.lineSeparator {
+  background-color: #ffffff;
+  height: 1px;
+  opacity: 0.6;
+}
+
+.paymentResultMessage {
+  background-image: linear-gradient(261deg, #5ac8f5, #5bb556);
+}
+
+.resultIcon {
+  padding-top: 64px;
+  padding-bottom: 20px;
+}
+
+.resultIcon img {
+  max-width: 250px;
+}
+
+.purchaseResultText {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #ffffff;
+  padding-left: 36px;
+  padding-right: 36px;
+  padding-bottom: 64px;
+}
+
+.redirectingText {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #000000;
+  margin: 24px;
+  opacity: 0.54;
+}
+
+.inputIcon {
+  z-index: 1;
+}
+
+.expandIcon {
+  position: absolute;
+  right: 16px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.purchaseDetailsText {
+  margin-left: 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.2px;
+}
+
+.purchaseDetailsText .delText {
+  font-weight: 600;
+  opacity: 0.36;
+  color: #000000;
+}
+
+.purchaseDetailsText .delText span {
+  text-decoration: line-through;
+  font-weight: 600;
+}
+
+.purchaseDetailsText .purchaseAmountText {
+  font-weight: 600;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+.purchaseDetailsText .divider {
+  border-left: 1px solid #ffffff70;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.purchaseDetailsText .discountText {
+  color: #bdffa6;
+  font-weight: 600;
+}
+
+/* Footer */
+
+.footer {
+  width: 100%;
+  max-width: 960px;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  padding: 8px;
+  margin: 0 -8px;
+  background: #ffffff;
+  z-index: 15;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.72);
+  display: inline;
+}
+
+.footer .lenderImg {
+  width: 68px;
+}
+
+.footer .poweredBy {
+  opacity: 0.56;
+  font-size: 10px;
+  letter-spacing: 0.1px;
+  color: #000000;
+}
+
+.footerWrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.helpIcon {
+  position: relative;
+  top: 3px;
+  left: 3px;
+}

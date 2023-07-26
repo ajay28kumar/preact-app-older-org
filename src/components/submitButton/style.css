@@ -1,0 +1,8 @@
+.horizontalCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.loaderText {
+  margin: 24px;
+}

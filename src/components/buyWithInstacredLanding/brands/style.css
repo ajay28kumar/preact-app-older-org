@@ -1,0 +1,15 @@
+.imageContainer {
+  text-align: center;
+}
+
+@media (max-width: 360px) {
+  .imageContainer div.image {
+    width: 100px;
+  }
+}
+
+@media (max-width: 320px) {
+  .imageContainer div.image {
+    width: 80px;
+  }
+}

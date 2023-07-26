@@ -1,0 +1,22 @@
+.poweredByImage {
+  height: 20px;
+}
+
+.errorBody {
+  margin-top: 100px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.errorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.errorButton {
+  border-color: var(--errorColor) !important;
+  color: var(--errorColor) !important;
+}

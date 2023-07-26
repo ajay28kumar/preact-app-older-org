@@ -1,0 +1,106 @@
+.tileContainer {
+  padding-bottom: 20px;
+}
+
+.tileHeaderContainer {
+  padding-bottom: 16px;
+}
+
+.tileHeader {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+  color: #000000;
+  display: inline-block;
+  width: 70%;
+}
+
+.tile {
+  border-radius: 6px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  width: auto !important;
+  display: block !important;
+  max-width: 100% !important;
+  margin-right: 10px !important;
+  margin-bottom: 5px !important;
+  cursor: pointer;
+}
+
+.tileDescription {
+  padding: 8px;
+}
+
+.tileDescriptionHeader {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tileDescriptionContent {
+  font-size: 12px;
+  color: #000000;
+  padding: 6px 0;
+  word-break: break-all;
+}
+
+.descriptionFade {
+  opacity: 0.48;
+}
+
+.seeMoreWrapper {
+  font-weight: 600;
+}
+
+.tile img {
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  width: 100%;
+}
+
+.tileImageContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tileImageContainer .slick-slide > div {
+  margin-right: 10px !important;
+}
+
+.inlineBlock {
+  display: inline-block !important;
+  width: 44% !important;
+  max-width: 200px !important;
+  margin: 8px;
+}
+
+.showMoreLink {
+  font-size: 14px;
+  text-align: center;
+  color: #9f2931;
+  text-decoration: underline;
+}
+
+.comingSoonContainer {
+  position: relative;
+  top: 5px;
+}
+
+.comingSoonPill {
+  position: absolute;
+  width: 100%;
+}
+
+.comingSoonPill img {
+  width: 100px;
+}
+
+@media (max-width: 480px) {
+  .comingSoonPill img {
+    width: 80px;
+  }
+}

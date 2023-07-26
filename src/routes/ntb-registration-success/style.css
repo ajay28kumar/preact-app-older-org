@@ -1,0 +1,5 @@
+.pageWrapper {
+  background-color: hsl(0, 0%, 100%);
+  min-height: 100vh;
+  margin-top: 0;
+}

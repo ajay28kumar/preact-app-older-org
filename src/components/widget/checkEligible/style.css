@@ -1,0 +1,238 @@
+.rootContainer {
+  display: flex;
+}
+
+.eligibleContainer {
+  width: 50%;
+  position: relative;
+}
+.nonApprovedWrapper {
+  margin-top: 8px;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.messageContainer {
+  background-color: #f9f9f9;
+  padding: 8px 0;
+  width: 100%;
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.warningIcon {
+  height: 20px;
+  width: 20px;
+  margin: 0 8px;
+}
+.infoContainer {
+  width: 50%;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 325px;
+}
+
+.infoDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 250px;
+}
+
+.infoHeader {
+  width: 180px;
+  margin-left: 20px;
+  margin-bottom: 8px;
+}
+
+.benefitContainer {
+  display: flex;
+  margin-bottom: 8px;
+}
+
+.benefitText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.iconContainer {
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  height: 40px;
+  margin-right: 8px;
+}
+
+.headerContainer {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.backArrow {
+  margin: 0 8px;
+  height: 24px;
+  position: absolute;
+  top: 8px;
+}
+
+.bodyContainer {
+  margin: 16px auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 320px;
+}
+
+.headerText {
+  display: flex;
+  align-items: center;
+}
+
+.editIcon {
+  height: 20px;
+}
+
+.formContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 16px 0 12px;
+}
+
+.verifyNumberInputBox {
+  height: 50px !important;
+}
+
+.resendOtpContainer {
+  margin: 8px 0 0;
+  text-align: right;
+}
+
+.otpDescription {
+  width: 100%;
+  padding: 8px 0;
+}
+
+.checkButton button {
+  width: 100%;
+}
+
+.lenderListContainer {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.lenderHeaderContainer {
+  display: flex;
+  margin: 24px auto 8px;
+}
+
+.checkIcon {
+  height: 48px;
+  margin: 0 8px;
+}
+
+.congratulationText {
+  margin-bottom: 4px;
+}
+
+.lenderBodyContainer {
+}
+
+.lenderContainer {
+  height: 56px;
+  border: 1px solid rgba(40, 44, 63, 0.2);
+  border-radius: 4px;
+  margin: 8px 0;
+  box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.12);
+  display: flex;
+  align-items: center;
+}
+
+.lenderIcon {
+  height: 36px;
+  margin-left: 16px;
+  margin-right: 12px;
+}
+
+.submitButton {
+  min-width: 320px;
+  margin-top: 8px;
+}
+
+.poweredByContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+.nonApprovedInfo {
+  display: flex;
+}
+.nonApprovedIcon {
+  height: 30px;
+  width: 30px;
+  margin: 0 8px;
+}
+.buttonContainer {
+  margin-top: 24px;
+}
+.outLineButton {
+  border-color: var(--primaryThemeColor) !important;
+  color: var(--primaryThemeColor) !important;
+  border-radius: 4px !important;
+  font-weight: bold;
+}
+
+.nonApprovedText {
+  margin-top: 16px;
+}
+
+.ntbContainer {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.textNTBInfo {
+  margin-bottom: 8px;
+}
+
+.ntbButton button {
+  width: 100%;
+}
+
+.ntbSuccessScreenWrapper {
+  margin: 16px;
+  padding: 8px;
+}
+
+@media only screen and (max-width: 576px) {
+  .eligibleContainer {
+    width: 100%;
+  }
+  .infoContainer {
+    display: none;
+  }
+  .nonApprovedInfo {
+    margin-top: 32px;
+  }
+  .nonApprovedWrapper {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,13 @@
+.redirectText {
+  color: #ffffff;
+}
+
+.redirectText.override {
+  color: #000000;
+  opacity: 0.6;
+  font-weight: normal !important;
+}
+
+.redirectTimer {
+  font-weight: inherit;
+}

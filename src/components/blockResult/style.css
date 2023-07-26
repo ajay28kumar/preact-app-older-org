@@ -1,0 +1,31 @@
+.infoText {
+  margin-top: 5px;
+  text-align: left;
+  line-height: 18px;
+}
+
+.loaderContainer {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+}
+
+.redirectWrapper {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  max-width: 240px;
+}
+
+.bottomLink {
+  display: flex;
+  align-items: center;
+}
+
+.loader {
+  height: 30px;
+  width: 30px;
+  margin-bottom: 16px;
+}

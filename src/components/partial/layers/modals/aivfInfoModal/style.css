@@ -1,0 +1,52 @@
+.aivfInfoContainer {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 12px;
+}
+
+.aivfInfoHeaderContainer {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.08),
+    0 6px 20px -12px rgba(0, 0, 0, 0.16);
+  padding: 16px 32px;
+}
+
+.aivfHeaderText {
+  margin: 8px auto;
+}
+
+.aivfInfoBodyContainer {
+  background-color: #f9f9f9;
+  padding: 16px 24px 24px;
+}
+
+.bodyContainer {
+  padding: 8px 12px 12px;
+}
+
+.purchaseButtonContainer button {
+  height: 40px !important;
+  display: flex;
+  justify-content: center;
+}
+
+.cardInfoText {
+  line-height: 20px;
+}
+
+.cardInfoContainer {
+  display: flex;
+  margin-top: 12px;
+}
+.cardInfoTextContainer {
+  margin-left: 8px;
+}
+
+.leftImageContainer {
+  height: 40px;
+  width: 40px;
+}
+
+.buttonContainer {
+  margin-top: 8px;
+  margin-bottom: 24px;
+}

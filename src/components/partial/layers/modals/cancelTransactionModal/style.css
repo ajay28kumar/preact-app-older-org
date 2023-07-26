@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 0 24px 24px;
+}
+
+.bodyWrapper {
+  margin-left: -17px !important;
+}
+.loaderWrapper {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.successMessage {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirmCancellation {
+  text-align: center !important;
+  width: 255px !important;
+}
+
+.buttonContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.successIcon {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--errorColor, #1abc70);
+  margin-bottom: 20px;
+}
+
+.successIconImage {
+  color: #ffffff;
+  font-size: 40px;
+}

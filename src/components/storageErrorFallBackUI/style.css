@@ -1,0 +1,141 @@
+#appIncompatibleScreenContainer.topHeaderWrapper {
+  position: fixed;
+  width: 100%;
+  overflow: auto;
+  padding-bottom: 200px;
+  top: 0;
+}
+
+#appIncompatibleScreenContainer .topHeaderContainer {
+  font-size: 20px !important;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+  color: #ffffff;
+  background-image: linear-gradient(to left, #58c6cf, #37b77c);
+}
+
+#appIncompatibleScreenContainer #stepsToEnableStorage {
+  width: 320px;
+  margin: 0 auto;
+}
+
+#appIncompatibleScreenContainer #mainWrapper {
+  max-width: 340px;
+  margin: 0 auto;
+  width: 290px;
+  height: 301px;
+  vertical-align: top;
+}
+
+#appIncompatibleScreenContainer .howToEnableHeader {
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  color: #000000;
+  padding: 20px 0 10px 0;
+  border-bottom: 2px solid #00000012;
+}
+
+#appIncompatibleScreenContainer .stepsRow {
+  font-size: 16px;
+  color: #000000;
+  padding-bottom: 10px;
+}
+
+#appIncompatibleScreenContainer .stepsRow .shout {
+  font-weight: bold;
+}
+
+#appIncompatibleScreenContainer .leftBlock {
+  width: 10px;
+  height: 232.6px;
+  background-color: #78bd33;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  position: relative;
+  top: 56px;
+  left: 3px;
+}
+
+#appIncompatibleScreenContainer .rightBlock {
+  width: 10px;
+  height: 232.6px;
+  background-color: #78bd33;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  position: relative;
+  top: 56px;
+  right: 3px;
+}
+
+.storageErrorScreenFooter {
+  background-color: #ffffff;
+  height: 50px;
+  padding-top: 10px;
+  position: fixed;
+  z-index: 1000;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  -moz-box-shadow: 0 0 5px #888;
+  -webkit-box-shadow: 0 0 5px#888;
+  box-shadow: 0 0 5px #888;
+}
+
+.storageErrorScreenFooter table {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.errorContainer {
+  font-size: 16px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.link {
+  cursor: pointer !important;
+  color: #3570b2 !important;
+}
+
+.header {
+  padding: 20px;
+  border-bottom: 2px solid #ffffff4a;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+}
+
+.errorIcon {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.errorContent {
+  line-height: 20px;
+}
+
+.stepsImg {
+  display: inline-block;
+}
+
+.stepsContent {
+  display: inline-block;
+  vertical-align: super;
+  margin-left: 10px;
+}
+
+.enableStorageStepsContainer {
+  margin: 28px 0;
+}
+
+@media (max-width: 480px) {
+  #appIncompatibleScreenContainer.topHeaderWrapper {
+    width: 100%;
+    max-width: 100%;
+  }
+}

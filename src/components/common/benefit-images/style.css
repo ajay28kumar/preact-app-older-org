@@ -1,0 +1,26 @@
+.imageContainer {
+  display: flex;
+  justify-content: center;
+}
+.shopImages {
+  display: flex;
+  align-items: center;
+}
+.shopIcon {
+  height: 75px;
+  text-align: center;
+}
+.arrowIcon {
+  height: 75px;
+  margin-top: 50px;
+}
+
+.arrowImage {
+  height: 16px;
+  width: 40px;
+}
+
+.iconSize {
+  height: 50px;
+  width: 50px;
+}

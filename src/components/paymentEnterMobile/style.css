@@ -1,0 +1,101 @@
+.enterMobileContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.purchaseContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+
+.enterMobileBody {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lenderLogo {
+  height: 60px;
+}
+
+.headerContainer {
+  margin: 5px 0;
+}
+
+.textSpace {
+  padding: 5px 0;
+}
+
+.contentContainer {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inputBox {
+  margin: 15px 0 0 0;
+  max-width: 280px;
+}
+
+.inputWidth {
+  max-width: 300px;
+  min-width: 240px;
+  margin-bottom: 5px;
+}
+
+.inputWidth input {
+  text-align: center;
+}
+
+.submitButton {
+  max-width: 300px;
+  min-width: 240px !important;
+  margin: 20px 0 0;
+}
+
+.lendingContainer {
+  margin-top: 40px;
+  height: 84px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lenderImages {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.lenderIcon {
+  height: 32px;
+  margin-right: 10px;
+}
+
+.benefitsContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0 8px;
+}
+
+.benefits {
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+  padding-top: 10px;
+}
+
+.iconContainer {
+  height: 16px;
+  width: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 5px;
+}

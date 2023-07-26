@@ -1,0 +1,119 @@
+.howToBuyStepsContainer {
+  max-width: 360px;
+  margin: 0 auto 20px auto;
+}
+
+.howToBuyStepsRow {
+  -webkit-box-shadow: 0px 0px 12px -8px rgba(0, 0, 0, 0.66);
+  -moz-box-shadow: 0px 0px 12px -8px rgba(0, 0, 0, 0.66);
+  box-shadow: 0px 0px 12px -8px rgba(0, 0, 0, 0.66);
+  padding: 0 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.howToBuyStepsColumn {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.howToBuyContent {
+  width: 128px;
+  padding: 22px 0;
+  font-size: 14px;
+}
+
+.howToBuyCounterContent {
+  padding: 10px 0;
+  text-align: center;
+  width: 65px;
+}
+
+.howToBuyStepCounter {
+  color: #b12e33;
+  font-size: 27px;
+  line-height: 32px;
+  opacity: 0.17;
+  text-align: right;
+}
+
+.boldContent {
+  font-weight: bold !important;
+}
+
+/***********Variant C*************/
+
+.howToBuyStepsContainer.variantTypeC {
+  margin-top: 20px;
+}
+
+.howToBuyStepsContainer.variantTypeC .howToBuyStepsRow {
+  box-shadow: none;
+}
+
+.variantTypeC .howToBuyStepsRow {
+  margin-top: 0px;
+}
+
+.variantTypeC .howToBuyContent {
+  width: 230px;
+  font-size: 16px;
+  color: #000000;
+}
+
+.variantTypeC .howToBuyStepsColumn img {
+  width: 50px;
+  margin-top: 0px;
+}
+
+.variantTypeC .howToBuyContent {
+  padding-left: 20px;
+  padding-top: 5px;
+}
+
+.variantTypeC .imgColumn {
+  width: 60px;
+  text-align: right;
+}
+
+/**************Variant D*****************/
+
+.variantTypeD .howToBuyStepsRow {
+  box-shadow: none;
+}
+
+.variantTypeD .stepsContainer .stepsCounterWrapper {
+  color: #686868;
+  font-size: 23px;
+  margin-bottom: 7px;
+}
+
+.stepsCardContainer {
+  height: 255px;
+  width: 218px;
+  border-radius: 8px;
+  background-color: #6585ff;
+  box-shadow: 0 1px 22px 0 rgba(0, 0, 0, 0.2);
+  margin-right: 15px;
+}
+
+.stepsContentWrapper {
+  color: #ffffff;
+  font-size: 18px;
+  padding: 22px;
+}
+
+.stepsContentWrapper strong {
+  font-weight: bold;
+}
+
+.stepsCardContainer.variantDstep2 {
+  background-color: #00c9b8;
+}
+
+.stepsCardContainer.variantDstep3 {
+  background-color: #f19300;
+}
+
+.stepsImgContainer {
+}

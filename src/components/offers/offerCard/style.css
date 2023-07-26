@@ -1,0 +1,19 @@
+.allOfferContainer {
+  margin: 10px 0;
+}
+
+.dealText {
+  margin: 10px 16px 10px 0;
+}
+
+.merchantName {
+  border-radius: 4px;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 -2px 4px 0 rgba(0, 0, 0, 0.12),
+    0 12px 22px -10px rgba(0, 0, 0, 0.8);
+}
+
+.offerCard {
+  margin: 0 auto;
+}

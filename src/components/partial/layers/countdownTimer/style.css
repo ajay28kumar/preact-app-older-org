@@ -1,0 +1,12 @@
+.timerContainer {
+  background-color: rgba(239, 124, 23, 0.17);
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 8px 6px -6px rgba(82, 82, 82, 0.4);
+}
+.timerImage {
+  height: 16px;
+  width: 16px;
+}

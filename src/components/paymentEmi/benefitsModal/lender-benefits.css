@@ -1,0 +1,124 @@
+.lenderBenefits {
+  background-image: none;
+}
+
+.lenderBenefits.cflTheme {
+  background-color: #9f1d27 !important;
+}
+
+.lenderBenefits.kotakTheme {
+  background-color: rgb(237, 28, 36) !important;
+}
+
+.lenderBenefits.hdfcTheme {
+  background-color: #004b8f !important;
+}
+
+.lenderBenefits.federalTheme {
+  background-color: #777777 !important;
+}
+.lenderBenefits.iciciTheme {
+  background-color: #f5821f !important;
+}
+
+.lenderBenefits.instaLendTheme {
+  background-color: #5f7cb3 !important;
+}
+
+.lenderImg {
+  width: 80px;
+  margin: 16px;
+}
+
+.lenderBenefitsLineSeparator {
+  background-color: #000000;
+  height: 2px;
+  opacity: 0.2;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.lenderBenefitsPointsLineSeperator {
+  background-color: #000000;
+  height: 2px;
+  opacity: 0.2;
+  margin-left: 24px;
+  margin-right: 16px;
+}
+
+.lenderBenefitsTitle {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.05;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+  margin: 24px;
+}
+
+.lenderBenefitsPointsInfoGraphic {
+  margin-top: 8px;
+  margin-left: 128px;
+  position: relative;
+}
+
+.lenderBenefitsPoints {
+  margin-top: 12px;
+  position: relative;
+}
+
+.lenderBenefitsPerson {
+  width: 180px;
+  object-fit: contain;
+  transform: rotate(8deg);
+}
+
+.lenderBenefitsPointsTick {
+  height: 10px;
+  padding-right: 12px;
+  margin-bottom: 14px;
+  margin-top: 6px;
+  vertical-align: middle;
+}
+
+.lenderBenefitsPointsText {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.1px;
+  color: #ffffff;
+  padding-right: 16px;
+}
+
+.lenderBenefitsFooter {
+  width: 100%;
+  text-align: center;
+  padding: 8px;
+  background: #ffffff;
+  z-index: 0;
+  display: inline;
+}
+
+.lenderBenefitsFooterBrandImg {
+  width: 68px;
+}
+
+.lenderBenefitsFooterPoweredBy {
+  opacity: 0.56;
+  font-size: 10px;
+  letter-spacing: 0.1px;
+  color: #000000;
+}
+
+.topBarHeightAdjust {
+  height: 100% !important;
+}
+
+.dismissBenefitsIcon {
+  padding: 12px;
+  width: 2.5em;
+}
+
+@media (max-width: 480px) {
+  .lenderBenefitsPointsTick {
+    margin-top: 14px;
+  }
+}

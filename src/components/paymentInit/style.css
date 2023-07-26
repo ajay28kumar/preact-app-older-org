@@ -1,0 +1,119 @@
+.card {
+  min-height: 200px;
+  border-radius: 6px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.purchaseAmountContainer {
+  display: flex;
+  align-items: center;
+}
+
+.purchaseHeader {
+  font-size: 12px;
+  opacity: 0.6;
+  margin-right: 5px;
+}
+
+.purchaseAmount {
+  font-size: 16px;
+}
+
+.lenderPanel {
+  background-color: #ffffff;
+  box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.12) !important;
+  margin: 10px 0;
+  border-radius: 6px !important;
+}
+
+.lenderPanelDisable {
+  background-color: #f8f8f8;
+}
+
+.lenderLayout {
+  width: 100%;
+}
+
+.lenderDetails {
+  height: 72px;
+  display: flex;
+  align-items: center;
+}
+
+.lenderImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lenderLogo {
+  max-height: 50px;
+  max-width: 50px;
+}
+
+.emiContainer {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.lenderName {
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+.lenderAsterisk {
+  font-weight: bold;
+}
+
+.lenderEmi {
+  font-size: 12px;
+}
+
+.tenure {
+  opacity: 0.6;
+}
+
+.arrowContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.arrow {
+  font-size: 24px;
+}
+
+.panelInfoContainer {
+  border-radius: 0 0 6px 6px;
+  background-color: #f9f8f8;
+  color: #656565;
+  box-shadow: 0 -1px 0 0 rgba(0, 0, 0, 0.08);
+  height: 24px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.activationText {
+  font-weight: bold;
+}
+
+.lenderFooter {
+  padding: 10px;
+  font-size: 14px;
+  color: #314451;
+}
+
+.knowMoreLink {
+  color: #009572;
+  text-decoration: underline;
+}
+
+.knowMoreDetails {
+  font-size: 12px;
+  margin-top: 10px;
+}

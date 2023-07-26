@@ -1,0 +1,77 @@
+.tile {
+  border-radius: 6px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  width: auto !important;
+  display: block !important;
+  max-width: 100% !important;
+  margin-bottom: 5px !important;
+  cursor: pointer;
+}
+
+.inlineBlock {
+  display: inline-block !important;
+  width: 44% !important;
+  max-width: 210px !important;
+  margin: 8px;
+}
+
+.tileDescription {
+  padding: 8px;
+}
+
+.tileDescriptionHeader {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}
+
+.tileDescriptionContent {
+  font-size: 12px;
+  color: #000000;
+  padding: 6px 0;
+  word-break: break-word;
+}
+
+.descriptionFade {
+  opacity: 0.48;
+}
+
+.seeMoreWrapper {
+  font-weight: 600;
+}
+
+.comingSoonContainer {
+  position: relative;
+  top: 5px;
+}
+
+.comingSoonPill {
+  position: absolute;
+  width: 100%;
+}
+
+.comingSoonPill img {
+  width: 100px;
+}
+
+.merchantImage {
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+  width: 100%;
+}
+
+.card {
+  border-radius: 6px !important;
+  height: 100%;
+}
+
+@media (max-width: 480px) {
+  .comingSoonPill img {
+    width: 80px;
+  }
+}

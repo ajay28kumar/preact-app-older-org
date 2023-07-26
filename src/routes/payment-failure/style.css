@@ -1,0 +1,23 @@
+.paymentBenefits {
+  height: 100%;
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.errorIcon {
+  font-size: 40px;
+  color: #f44336;
+  margin: 20px auto;
+}
+.errorMessageContainer {
+  background-color: #f9f9f9;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 24px;
+  margin-top: 20px;
+}
+.errorMessage {
+  max-width: 280px;
+  text-align: center;
+}

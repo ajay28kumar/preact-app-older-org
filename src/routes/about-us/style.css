@@ -1,0 +1,398 @@
+.showOnMobile {
+  display: none;
+}
+
+.showOnDesktop {
+  display: block;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.aboutHeader {
+  color: rgba(0, 0, 0);
+  letter-spacing: 0;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.topContent {
+  padding-top: 24px !important;
+}
+
+.aboutContents {
+  color: rgba(0, 0, 0);
+  letter-spacing: 0;
+  line-height: 24px;
+  padding: 16px 30px 0 30px;
+}
+
+.howItWorksContent {
+  text-align: center;
+  margin-top: 24px;
+  color: rgba(0, 0, 0);
+}
+
+li {
+  padding-bottom: 8px;
+}
+
+li::marker {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+ol {
+  padding-left: 15px;
+}
+
+.achievementsContainer {
+  height: 72px;
+  width: 360px;
+  border-radius: 8px;
+  background-color: rgba(26, 188, 112, 0.08);
+  margin-bottom: 16px;
+  border: 1px solid rgba(26, 188, 112, 0.12);
+  margin: 0 auto;
+}
+
+.achievementsWrapper {
+  padding: 8px 8px 0 8px !important;
+}
+
+.achievementHeader {
+  display: none;
+}
+
+.achievements {
+  padding: 16px 0;
+}
+
+.achievementCount {
+  color: #1abc70;
+  letter-spacing: 0;
+}
+
+.achievementCategory {
+  color: #1abc70;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.borderRight {
+  border-right: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.tableCell {
+  padding: 0;
+}
+
+.storyImage {
+  width: 100%;
+  margin-top: 24px;
+}
+
+.stepsContainer {
+  margin: 16px auto 40px auto;
+  position: relative;
+  width: 400px;
+}
+
+.stepsWrapper {
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.steps {
+  position: relative;
+  z-index: 2;
+  background-color: #ffffff;
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  color: #000;
+  vertical-align: sub;
+}
+
+.stepsContent {
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+  padding-left: 10px;
+  line-height: 20px;
+}
+
+.footerContainer {
+  padding: 16px 8px 8px 8px;
+  border-top: 1px solid #bfbebe52;
+  margin: 0 -120px -15px;
+  background-color: #f9f9f9;
+}
+
+.connector {
+  display: block;
+  position: absolute;
+  content: ' ';
+  z-index: 1;
+  width: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 200px;
+  top: 15px;
+  left: 20px;
+}
+
+.keyHighlightsHeader {
+  color: rgba(3, 3, 3, 0.8);
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  margin-top: 16px;
+}
+
+.stepSeparator {
+  margin-top: 3px;
+}
+
+.highlightsText {
+  display: inline-block;
+  padding-left: 8px;
+}
+
+.hightlightsList {
+  border-collapse: separate;
+  border-spacing: 0 9.2px;
+  margin-bottom: 25px;
+}
+
+.tileContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.imageContainer {
+  border-radius: 6px;
+  -webkit-box-shadow: 0 2px 8px 0 rgb(0 0 0 / 30%),
+    0 6px 20px -12px rgb(0 0 0 / 16%);
+  box-shadow: 0 2px 8px 0 rgb(0 0 0 / 30%), 0 6px 20px -12px rgb(0 0 0 / 16%);
+  background-color: #fff;
+  max-width: 100%;
+  height: auto;
+  margin: 5px;
+}
+
+.image {
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  border-radius: 6px;
+  height: 64px;
+}
+
+.ourNetworkContainer {
+  margin: 30px -120px 0 -120px;
+  background-color: #f9f9f9;
+  padding: 22px 0px 24px 0;
+}
+
+.networkMerchantSubHeader {
+  color: rgba(3, 3, 3, 0.8);
+  margin: 24px 0 12px 0;
+}
+
+.networkLenderSubHeader {
+  color: rgba(3, 3, 3, 0.8);
+  margin: 5px 0 12px 0;
+}
+
+.howItWorksWrapper {
+  padding: 8px 20px 0 20px;
+}
+
+.highlightsSpacingAdjust {
+  width: 280px;
+}
+
+.lenderSliderWrapper {
+  width: 720px;
+  margin: 0 auto;
+  padding-top: 30px !important;
+}
+
+.counterWrapper {
+  margin-top: 40px;
+}
+
+.merchantSliderContainer {
+  max-width: 720px;
+  margin: 0 auto;
+  padding-left: 30px !important;
+  padding-right: 30px !important;
+}
+
+.lenderImageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 54px;
+  width: auto;
+  margin-right: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.lenderSliderImage {
+  height: 40px;
+  width: auto;
+  margin: 0 auto;
+}
+
+.benefitsHeader {
+  color: #282c3f;
+  margin-top: 20px;
+}
+
+.shopImageContainer {
+  margin: 24px 0;
+  width: 100%;
+}
+
+.shopImages {
+  display: block;
+}
+
+.shopInfoWrapper {
+  display: block;
+}
+
+.shopInfoContainer {
+  display: inline-block;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 33%;
+  min-width: 200px;
+}
+
+.infoIconContainer {
+  display: block;
+}
+
+.infoIcon {
+  padding: 8px;
+}
+
+.infoHeader {
+  line-height: 20px;
+}
+
+.benefitsHeader,
+.infoHeader {
+  color: #282c3f;
+}
+
+.stepsContainer video {
+  max-width: 100%;
+  height: auto;
+}
+
+.ourNetworkHeader {
+  margin-top: 0px;
+}
+
+.howItWorksGif {
+  width: 100%;
+}
+
+@media (max-width: 480px) {
+  .showOnMobile {
+    display: block;
+  }
+  .showOnDesktop {
+    display: none;
+  }
+  .container {
+    max-width: 360px;
+    margin: 0 auto;
+  }
+  .ourNetworkContainer {
+    margin: 20px -8px 0 -8px;
+    padding: 22px 0px 8px 0;
+  }
+  .lenderSliderWrapper {
+    width: 100%;
+    padding-top: 12px !important;
+  }
+  .achievementsContainer {
+    background-color: transparent;
+    border: 0;
+    height: 104px;
+    width: 328px;
+  }
+  .achievementHeader {
+    display: block;
+    color: rgba(0, 0, 0);
+    letter-spacing: 0;
+    line-height: 16px;
+    padding: 16px 24px;
+    text-align: center;
+  }
+  .networkLenderSubHeader {
+    margin: 12px 0 12px 0;
+  }
+  .counterWrapper {
+    margin-top: 8px;
+  }
+  .stepsContent {
+    width: 240px;
+  }
+  .stepsContainer {
+    margin-top: 16px;
+    position: relative;
+    width: auto;
+  }
+  .merchantSliderContainer {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  .lenderImageWrapper {
+    height: 42px;
+  }
+  .lenderSliderImage {
+    height: 32px;
+    max-width: 100%;
+  }
+  .shopInfoWrapper {
+    margin-top: 20px;
+  }
+  .infoTextContainer {
+    display: inline-block;
+    height: 68px;
+    vertical-align: top;
+    padding-top: 15px;
+  }
+  .infoTextContainer .infoHeader {
+    text-align: left !important;
+  }
+  .infoIconContainer {
+    display: inline-block;
+  }
+  .shopInfoContainer {
+    min-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+  }
+  .shopImageContainer {
+    display: none;
+  }
+}

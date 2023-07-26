@@ -1,0 +1,71 @@
+.mainSliderContainer {
+  height: 260px;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+    0 1px 10px 0 rgba(0, 0, 0, 0.12);
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+.mainSliderContainer img {
+  width: 100%;
+  display: inline-block;
+}
+
+.bannerImgContainer {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 260px;
+  border-radius: 6px;
+}
+.lightboxContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 80px;
+  background-color: #000000d1;
+  z-index: 1;
+}
+#videoFrame {
+  width: 960px;
+  height: 450px;
+  display: inline-block;
+  text-align: right;
+}
+
+#videoFrame iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.closeAction {
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: #353535;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #353535;
+  font-size: 20px;
+  position: relative;
+  top: 30px;
+  z-index: 76;
+}
+
+@media (max-width: 480px) {
+  #videoFrame {
+    width: 90%;
+    height: 400px;
+  }
+}
+@media (min-width: 500px) and (max-width: 768px) {
+  #videoFrame {
+    width: 90%;
+    height: 450px;
+  }
+}

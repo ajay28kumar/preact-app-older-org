@@ -1,0 +1,36 @@
+.textColor {
+  color: #333333;
+  font-weight: bold;
+}
+
+.offerHeader {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.carouselContainer {
+  padding-bottom: 16px;
+}
+
+.carouselHeader {
+  font-size: 18px;
+}
+
+.carousel {
+  margin: 16px 0;
+}
+
+.bannerImgContainer {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 260px;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.bannerContainer {
+  width: 100%;
+  display: inline-block;
+}

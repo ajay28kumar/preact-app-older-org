@@ -1,0 +1,15 @@
+.container {
+}
+
+.bodyContainer {
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  padding: 16px 8px;
+  min-height: 100vh;
+}
+
+.container.backgroundBodyOverride,
+.container.backgroundBodyOverride .bodyContainer {
+  background-color: #ffffff;
+}

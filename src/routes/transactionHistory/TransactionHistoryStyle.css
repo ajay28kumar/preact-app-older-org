@@ -1,0 +1,463 @@
+.transactionHistoryBody {
+  min-height: 100%;
+  background-color: #e7e7e7;
+}
+
+.heading {
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  color: #000000;
+  text-transform: uppercase;
+  padding: 12px 8px 12px 8px;
+}
+
+.card {
+  margin: 0 8px;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.3);
+  background-color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.borderRightDotted {
+  border-right: 1px dotted #ccc;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.visibleOnlyOnDesktop {
+  display: none;
+}
+
+.visibleOnlyOnMobile {
+}
+
+.borderRightDottedDesktopOnly {
+}
+
+.merchantLogoTable {
+  display: table;
+  width: 100%;
+}
+
+.voucherCounter {
+  border: 1px solid #8a8a8a9c;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  margin-right: 4px;
+}
+
+.voucherCounter .counter {
+  display: inline-block;
+  position: relative;
+  bottom: -1px;
+}
+
+.monthlyEMI {
+  color: #5bb556;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: left;
+  padding: 8px;
+}
+
+.rightAlign {
+  text-align: right;
+}
+
+.mobileViewReturningStatement {
+  display: none;
+}
+
+.voucherCountContainer {
+  opacity: 0.87;
+  color: #000000;
+}
+
+.transactionAmount .amountContainer {
+  padding-right: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  display: block;
+}
+
+.transactionAmount .amountContainer .amountValue {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000000;
+  display: block;
+}
+
+.transactionStatus {
+  font-size: 10px;
+  color: #006089;
+  padding-top: 2px;
+  font-weight: bold;
+}
+
+.detailTransactionPanel {
+  margin-top: 4px;
+  text-align: left;
+  padding: 12px;
+  display: block;
+}
+
+.horizontalLine {
+  height: 2px;
+  opacity: 0.2;
+}
+
+.voucherCode {
+  font-size: 15px;
+  font-weight: 500;
+  color: #4c4c4c;
+  padding-bottom: 4px;
+}
+
+.voucherPin {
+  font-size: 15px;
+  font-weight: 500;
+  color: #4c4c4c;
+  padding-bottom: 4px;
+}
+
+.expiry {
+  font-size: 14px;
+  font-weight: 500;
+  color: #4d4d4d;
+  width: 100%;
+  border-spacing: 0 !important;
+}
+
+.expiryValue {
+  color: #8a8a8a;
+}
+
+.expiryAmount {
+  font-size: 14px;
+  font-weight: 500;
+  color: #4d4d4d;
+}
+
+.copyVoucherCodeBadge {
+  width: 50px;
+  height: 20px;
+  border-radius: 50px;
+  background-color: #5bb556;
+  color: #fff;
+  font-size: 12px;
+  display: inline-block;
+  text-align: center;
+  padding-top: 4px;
+  position: relative;
+  bottom: 0px;
+  font-weight: 400;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.transactionDetailContainer {
+  background-color: #f8f8f8;
+  padding: 4px;
+  border-top: 1px solid #d9d9d9;
+  display: flex;
+}
+
+.transactionDetailContainer .detailHeader {
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+  color: #494949;
+  padding: 12px 0 0 0;
+}
+
+.transactionDetailContainer .detailsValue {
+  font-size: 12px;
+  text-align: center;
+  opacity: 0.5;
+  color: #000000;
+  padding: 4px 0 12px 0;
+}
+
+.listDivider {
+  border-right: 1px solid #cccccc57;
+}
+
+.transactionDetailContainer .transactionDetailColumn {
+  width: 33%;
+  padding: 0 12px;
+}
+
+.voucherCounterLabel {
+  font-size: 16px;
+  font-weight: 500;
+  color: #8a8a8a;
+}
+
+.voucherCounter .counter {
+  font-size: 14px;
+  color: #8a8a8a;
+}
+
+.merchantLogoContainer {
+  text-align: center;
+}
+
+.transactionRecordRow {
+  padding: 25px 20px;
+  width: 100%;
+}
+
+.voucherCodeContainer {
+  width: 33%;
+  float: left;
+}
+
+.pinContainer {
+  width: 10%;
+  float: left;
+}
+
+.expiryContainer {
+  width: 33%;
+  float: left;
+}
+
+.transactionHistoryWrapper {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.emptyDataContainer {
+  text-align: center;
+  padding-top: 10%;
+}
+
+.emptyDataHeader {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 4px 8px;
+}
+
+.emptyDataSubtitle {
+  margin-bottom: 10px;
+  margin-top: 10%;
+}
+
+.voucherPendingTable {
+  width: 100%;
+  margin-top: -6px;
+  padding: 0 14px;
+}
+
+.voucherPendingAmount {
+  font-size: 20px;
+}
+
+.shopOnAmazonContainer {
+  margin: 10px;
+}
+
+strong {
+  font-weight: bold !important;
+}
+
+.closeDailog {
+  position: absolute;
+  right: 10px;
+  top: 0px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.voucherPending {
+  color: #f95e00 !important;
+  text-decoration: none !important;
+}
+
+.transactionStatus.refundedTxn {
+  color: #770f04 !important;
+}
+
+.transactionStatus.pendingTxn {
+  color: #f95e00 !important;
+}
+
+.detailsValue.noCost {
+  font-weight: bold;
+  opacity: 1;
+}
+
+.disclaimerContainer {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.monthlyInterestColumn {
+  padding: 0 5px !important;
+}
+
+@media (max-width: 480px) {
+  .voucherPendingTable {
+    padding: 0;
+  }
+  .emptyDataSubtitle {
+    margin-top: 30%;
+  }
+  .voucherCodeContainer,
+  .pinContainer,
+  .expiryContainer {
+    width: 100%;
+    float: none;
+  }
+  .transactionRecordRow {
+    padding: 14px 15px 14px 3px;
+  }
+  .transactionMerchantColumn {
+    width: 10%;
+  }
+  .merchantLogoContainer img {
+    width: 80px;
+  }
+  .monthlyEmiColumn {
+    display: none;
+  }
+  .mobileViewReturningStatement {
+    display: table-row;
+  }
+  .voucherCounter {
+    width: 18px;
+    height: 18px;
+  }
+  .voucherCounter .counter {
+    font-size: 11px;
+    bottom: 4px;
+  }
+  .voucherCounterLabel {
+    font-size: 14px;
+    display: inline-block;
+    color: #000000;
+    border-radius: 5px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .monthlyEMI {
+    font-size: 12px;
+    padding-left: 0;
+    padding-bottom: 0;
+  }
+  .voucherPendingAmount {
+    font-size: 14px;
+  }
+  .expiryContainer,
+  .expiryAmount {
+    display: inline-block;
+    width: 50%;
+  }
+}
+
+@media (min-width: 760px) {
+  .card {
+    margin: 0 0px 10px 0px;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.3);
+    background-color: #ffffff;
+  }
+  .heading {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 0.7px;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 12px 0 0 20px;
+  }
+  .merchantLogoContainer img {
+    width: 40%;
+  }
+  .transactionMerchantColumn {
+    width: 20%;
+  }
+  .transactionAmount {
+    width: 20%;
+  }
+  .voucherCountContainer {
+    padding: 0 15px;
+  }
+  .transactionDetailContainer .detailHeader {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: #494949;
+    padding: 12px 0 0 0;
+  }
+  .transactionDetailContainer .detailsValue {
+    font-size: 14px;
+    text-align: center;
+    opacity: 0.5;
+    color: #000000;
+    padding: 4px 0 12px 0;
+  }
+  .detailTransactionPanel {
+    margin-top: 4px;
+    text-align: left;
+    padding: 12px;
+    display: flex;
+  }
+  .transactionAmount .amountContainer .amountValue {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    display: block;
+  }
+  .transactionStatus {
+    font-size: 14px;
+    color: #006089;
+    padding-top: 5px;
+  }
+  .borderRightDottedDesktopOnly {
+    border-right: 1px dotted #ccc;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .voucherCode {
+    font-size: 16px;
+    font-weight: 500;
+    color: #4c4c4c;
+    padding: 16px;
+    min-width: 300px;
+  }
+  .voucherPin {
+    font-size: 15px;
+    font-weight: 500;
+    color: #4c4c4c;
+    padding: 16px;
+    min-width: 136px;
+  }
+  .expiry {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 16px;
+  }
+  .visibleOnlyOnDesktop {
+    display: block;
+  }
+  .visibleOnlyOnMobile {
+    display: none;
+  }
+  .expiryAmount {
+    font-size: 20px;
+    font-weight: 500;
+    color: #4d4d4d;
+    border-spacing: 0 !important;
+    margin-bottom: 20px;
+    margin-top: 18px;
+    padding: 16px;
+    min-width: 116px;
+  }
+}

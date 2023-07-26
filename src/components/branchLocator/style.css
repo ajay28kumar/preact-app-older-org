@@ -1,0 +1,42 @@
+.branchLocatorContainer {
+  padding: 0 0 16px 0;
+}
+
+.branchLocatorButtonContainer {
+  padding: 4px 0;
+  text-align: center;
+}
+
+.branchLocatorButtonContainer a {
+  color: inherit;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.branchLocatorTitleContainer {
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.14;
+  text-align: center;
+  color: #545454;
+}
+
+.branchLocatorContainer a {
+  color: inherit;
+}
+
+.locationIcon {
+  position: relative;
+  top: 4px;
+  width: 12px;
+  right: 3px;
+}
+
+.secondaryLink {
+  font-size: 14px;
+  text-align: center;
+  color: #60b260;
+  color: var(--primaryThemeColor, #60b260);
+  text-decoration: underline;
+  padding: 12px;
+}

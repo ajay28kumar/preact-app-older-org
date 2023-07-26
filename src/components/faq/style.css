@@ -1,0 +1,55 @@
+.headerText {
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+
+.headerContainer {
+  display: flex;
+  margin: 16px;
+  align-items: center;
+}
+
+.icon {
+  height: 32px;
+}
+
+.sectionHeaderText {
+  margin-left: 16px;
+}
+
+.faqDisplayArea {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+    0 1px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+}
+
+.faqDisplayData {
+  border: 1px solid #eeeeee;
+}
+
+.headerArea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px;
+}
+
+.faqHeader {
+  max-width: 80%;
+}
+
+.answerContainer {
+  margin: 8px 16px 16px;
+}
+
+.ntbFaqContainer .headerText {
+  margin-top: 0;
+  padding-top: 24px;
+  color: #ffffff;
+}
+
+.ntbFaqContainer .faqDisplayArea {
+  max-width: 960px;
+  margin: 0 auto;
+}

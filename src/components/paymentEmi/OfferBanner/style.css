@@ -1,0 +1,43 @@
+.emiOffer__container {
+  display: flex;
+  justify-content: center;
+}
+
+.emiOffer__wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  border-radius: 6px;
+  background-color: rgba(26, 188, 112, 0.12);
+}
+
+.emiOffer__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-left: 6px;
+}
+
+.emiOffer__title {
+  margin: 0;
+  color: #000;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 16px;
+}
+
+.emiOffer__tnc {
+  position: absolute;
+  bottom: 2px;
+  display: inline-block;
+  color: #22995a;
+  font-family: Roboto;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: 12px;
+  cursor: pointer;
+  margin-top: 4px;
+  text-decoration: none;
+}

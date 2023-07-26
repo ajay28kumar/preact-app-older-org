@@ -1,0 +1,96 @@
+.lenderImage {
+  height: 40px;
+}
+
+.poweredByLabel {
+  font-size: 10px;
+  color: #ffffff;
+  opacity: 0.5;
+  text-align: right;
+  margin-bottom: 2px;
+}
+
+.poweredByContainer {
+  border-right: 2px solid #c78888;
+  padding-right: 8px;
+  padding-top: 5px;
+}
+
+.instaCredLogo {
+  width: 80px;
+}
+
+.infoIconContainer {
+  padding: 5px 6px;
+  cursor: pointer;
+}
+
+.infoIcon {
+  vertical-align: middle;
+}
+
+.paddingLeft12 {
+  padding-left: 12px;
+}
+
+.paddingLeft0 {
+  padding-left: 0px;
+}
+
+.paddingRight0 {
+  padding-right: 0px;
+}
+
+.knowMoreContainer {
+  color: #ffffff;
+  font-size: 10px;
+  text-align: right;
+  padding-top: 5px;
+}
+
+.appDrawer {
+  padding: 0 15px;
+  cursor: pointer;
+  width: 48px;
+  height: 12px;
+}
+
+.lenderLogoContainer {
+  text-align: center;
+  padding: 10px;
+}
+
+.drawerIcon {
+  width: 36px;
+  text-align: center;
+}
+
+.drawerIcon img {
+  vertical-align: middle;
+  opacity: 0.35;
+}
+
+.drawerText {
+  display: inline-block;
+  font-size: 16px;
+  vertical-align: middle;
+  line-height: 36px;
+}
+
+.lenderLogoContainer img {
+  width: 100px;
+}
+
+.appDrawerWrapper {
+  display: inline-block;
+  padding: 10px 0;
+}
+
+.instaCredBackground {
+  background-image: linear-gradient(261deg, #5ac8f5, #5bb556);
+}
+
+.lenderTheme {
+  background-color: var(--primaryThemeColor, #5bb556) !important;
+  background-image: none !important;
+}

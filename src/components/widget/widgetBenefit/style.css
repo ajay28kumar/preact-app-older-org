@@ -1,0 +1,322 @@
+.headerWrapper {
+  margin: -8px;
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.wrapper {
+  overflow: visible;
+  position: relative;
+}
+
+.tabWrapper {
+  display: flex;
+  justify-content: space-around;
+  height: 56px;
+  box-shadow: 0 4px 4px -4px #000000;
+  background-color: #ffffff;
+}
+
+.tab {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 33%;
+  align-items: center;
+  cursor: pointer;
+}
+
+.poweredByContainer {
+  margin-top: 8px;
+  width: 100%;
+  right: 16px;
+  text-align: right;
+}
+
+.activeTab {
+  border-bottom: 4px solid var(--primaryThemeColor);
+}
+
+.benefitScreenBody {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.emiDesktopScreenBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.emiMobileScreenBody {
+  max-width: 320px;
+  margin: 32px auto 16px;
+}
+
+.headerContainer {
+  width: 550px;
+}
+
+.successMessageContainer {
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.successIcon {
+  height: 32px;
+  margin-right: 8px;
+}
+
+.lenderListMobile {
+  width: 100%;
+}
+
+.phoneNumberContainer {
+  margin: 8px 0 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.editIcon {
+  height: 16px;
+}
+
+.emiTableContainer {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+.emiPanel {
+  position: relative;
+  background-color: #ffffff;
+  margin: 8px 0;
+  border-radius: 6px !important;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.activePanel {
+  box-shadow: 0 3px 1px -2px rgba(34, 153, 90, 0.4),
+    0 2px 2px 0 rgba(34, 153, 90, 0.34), 0 1px 5px 0 rgba(34, 153, 90, 0.34) !important;
+  border: 1px solid #22995a;
+}
+
+.emiContainer {
+  width: 100%;
+  height: 56px;
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+}
+
+.logoContainer {
+  margin: 0 8px;
+}
+
+.logoIcon {
+  height: 32px;
+}
+
+.emiDetailsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 32px;
+}
+.lenderDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.emiStarts {
+  margin-top: 4px;
+}
+.rightArrowIcon {
+  height: 24px;
+}
+
+.shopImageContainer {
+  margin: 24px 0;
+  width: 100%;
+}
+
+.shopImages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arrowImage {
+  display: flex;
+  align-items: flex-end;
+}
+
+.shopInfoWrapper {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.shopInfoContainer {
+  display: inline-block;
+  align-items: center;
+  width: 33%;
+  min-width: 200px;
+}
+
+.infoIcon {
+  padding: 8px;
+}
+
+.benefitFooter {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  border-top: 4px solid #f4f4f5;
+}
+.desktopBankingPartner {
+  margin-top: 16px;
+}
+
+.bankingPartnerContainer {
+  padding: 8px;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bankingPartnerContainer div {
+  margin-bottom: 16px;
+}
+
+.htbContainer {
+  margin-top: 24px;
+  display: flex;
+}
+
+.htbImageContainer {
+}
+
+.htbTextWrapper {
+  width: 320px;
+  margin-top: 56px;
+}
+
+.htbTextContainer {
+  margin-left: 20px;
+  line-height: 20px;
+}
+
+.htbText {
+  padding: 12px 32px 12px 5px;
+  display: flex;
+}
+
+.activeHtbText {
+  background-color: rgba(7, 163, 90, 0.1);
+}
+
+.infoIconContainer {
+  display: block;
+}
+
+.infoHeader {
+  line-height: 20px;
+}
+
+.closeWidgetScreen {
+  position: absolute;
+  right: 10px;
+  bottom: 25px;
+  font-size: 29px;
+  color: #716f6f;
+}
+
+.spinnerContainer {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.errorMessageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.errorHeader {
+  margin-top: 64px;
+  margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 576px) {
+  .closeWidgetScreen {
+    display: none;
+  }
+  .shopImageContainer {
+    display: none;
+  }
+  .shopInfoContainer {
+    width: 260px;
+    margin: 0 auto 8px;
+    display: block;
+    height: 48px;
+  }
+  .infoIconContainer {
+    display: inline-block;
+  }
+  .infoTextContainer {
+    display: inline-block;
+  }
+  .infoTextContainer .infoHeader {
+    text-align: left !important;
+  }
+  .infoIcon {
+    padding: 0 8px;
+  }
+  .infoTextContainer {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 8px;
+  }
+  .benefitScreenBody {
+    margin-top: 24px;
+  }
+  .htbImageContainer {
+    width: 50%;
+  }
+  .htbImageContainer img {
+    width: 100%;
+  }
+  .htbText {
+    font-size: 12px !important;
+    padding: 9px 0 8px 5px;
+  }
+  .htbTextWrapper {
+    margin-top: 41px;
+    width: 50%;
+  }
+  .htbContainer {
+    margin-top: 8px;
+    margin-right: 0;
+  }
+  .htbTextContainer {
+    margin-left: 10px;
+    line-height: 15px;
+  }
+  .shopInfoWrapper {
+    margin-top: 16px;
+  }
+}

@@ -1,0 +1,46 @@
+.menuHeader {
+  background-color: #f9f9f9 !important;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  border-bottom: 1px solid #0000000d;
+}
+
+.menuBody {
+  width: 220px;
+  color: #0000007a;
+  display: flex;
+}
+
+.headerText {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.icLogo {
+  margin-left: 5px;
+  height: 12px;
+}
+
+.closeIcon {
+  display: flex;
+}
+
+.menuBodyList {
+  margin-top: 0px;
+}
+
+.menuList {
+  text-align: center;
+}
+
+.menuIcon {
+  height: 24px;
+  margin: 8px 0;
+}
+
+.menuText {
+  margin: 8px 8px 8px 11px;
+}

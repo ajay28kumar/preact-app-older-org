@@ -1,0 +1,52 @@
+.headerContainer {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.backArrow {
+  margin: 0 8px;
+  height: 24px;
+}
+
+.lenderContainer {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  border-bottom: 4px solid #f4f4f5;
+  margin: -8px;
+  padding: 8px;
+}
+.logoIcon {
+  height: 40px;
+  margin-left: 24px;
+  margin-right: 16px;
+}
+
+.tableContainer {
+  margin: -8px;
+}
+
+.emiErrorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 16px;
+  margin-top: 64px;
+}
+
+.errorDescription {
+  margin-top: 8px;
+}
+
+.tableBody {
+  height: 48px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tableDivider {
+  border-top: 2px solid #f4f4f5;
+}

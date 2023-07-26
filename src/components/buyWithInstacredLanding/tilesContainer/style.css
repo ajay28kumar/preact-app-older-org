@@ -1,0 +1,17 @@
+.tileContainer {
+  padding-bottom: 20px;
+}
+
+.tileHeaderContainer {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.seeMore {
+  display: flex;
+  width: 80px;
+  align-items: center;
+  justify-content: space-between;
+}

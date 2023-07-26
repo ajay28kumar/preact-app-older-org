@@ -1,0 +1,68 @@
+.lenderListContainer {
+  margin-top: 16px;
+  width: 550px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.08),
+    0 6px 20px -12px rgba(0, 0, 0, 0.16);
+  background-color: #f9f9f9;
+  display: flex;
+}
+
+.lenderContainer {
+  height: 52px;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+
+.activeLender {
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px 0 0 4px;
+  border-right: none;
+}
+
+.lenderIcon {
+  height: 24px;
+  margin-right: 16px;
+}
+
+.lenderWrapper {
+  width: 40%;
+  margin-left: 8px;
+}
+
+.emiTableContainer {
+  background-color: #ffffff;
+  width: 60%;
+  min-height: 200px;
+}
+.emiErrorContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  padding: 16px;
+  margin-top: 64px;
+}
+
+.errorDescription {
+  margin-top: 8px;
+}
+
+.tableBody {
+  height: 48px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.tableDivider {
+  border-top: 2px solid #f4f4f5;
+}
+
+.poweredByContainer {
+  display: flex;
+  justify-content: flex-end;
+}

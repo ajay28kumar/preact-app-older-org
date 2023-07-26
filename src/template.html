@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="description" content="EMI on mobiles, laptops, electronics, fashion, furnishing & more. Shop with InstaCred Cardless EMI, No Cost EMI, Flipkart EMI, Amazon EMI, IDFC EMI, HDFC EMI, ICICI EMI, Kotak EMI">
+    <link href="https://iccdn.in" rel="preconnect" crossorigin>
+    <link href="https://www.google-analytics.com" rel="preconnect" crossorigin>
+    <link href="https://stats.g.doubleclick.net" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com" rel="preconnect" crossorigin>
+    <link href="https://d2r1yp2w7bby2u.cloudfront.net" rel="preconnect" crossorigin>
+    <link href="https://connect.facebook.net" rel="preconnect" crossorigin>
+    <link rel="manifest" href="<%= htmlWebpackPlugin.files.publicPath %>manifest.json">
+    <% if (htmlWebpackPlugin.options.manifest.theme_color) { %>
+    <meta name="theme-color" content="<%= htmlWebpackPlugin.options.manifest.theme_color %>">
+    <% } %>
+    <% for (var chunk of webpack.chunks) { %>
+    <% if (chunk.names.length === 1 && chunk.names[0] === 'polyfills') continue; %>
+    <% for (var file of chunk.files) { %>
+    <% if (htmlWebpackPlugin.options.preload && file.match(/\.(js|css)$/)) { %>
+    <link rel="preload" href="<%= htmlWebpackPlugin.files.publicPath + file %>"
+          as="<%= file.match(/\.css$/)?'style':'script' %>">
+    <% } else if (file.match(/manifest\.json$/)) { %>
+    <link rel="preload" href="<%= htmlWebpackPlugin.files.publicPath + file %>">
+    <% } %>
+    <% } %>
+    <% } %>
+</head>
+
+<body>
+<%= htmlWebpackPlugin.options.ssr({
+url: '/'
+}) %>
+<script rel="preload" src="<%= htmlWebpackPlugin.files.chunks['bundle'].entry %>"></script>
+<script>window.fetch || document.write('<script src="<%= htmlWebpackPlugin.files.chunks["polyfills"].entry %>"><\/script>')</script>
+<script>
+    var addToHomeScreenObject = {};
+    if ('serviceWorker' in navigator) {
+
+        var MINIMUM_CHROME_VERSION_SUPPORTED_FOR_SW = 56;
+        var raw = navigator.userAgent.match(/Chrom(e|ium)\/([0-9]+)\./);
+        var version = raw ? parseInt(raw[2], 10) : false;
+
+        if (version && version >= MINIMUM_CHROME_VERSION_SUPPORTED_FOR_SW) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/service-worker.js')
+                    .catch(function (e) {
+                        if (!(e instanceof DOMException)) {
+                            throw e;
+                        }
+                    });
+            });
+            window.addEventListener('beforeinstallprompt', (e) => {
+                // Prevent Chrome <= 67 from automatically showing the prompt
+                e.preventDefault();
+                window.addToHomeScreenObject = e;
+            });
+        }
+    }
+</script>
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+.mainContainer {
+  padding: 16px;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.logoContainer {
+  text-align: center;
+  height: 100%;
+  margin-top: 10px;
+}
+
+.logoContainer img {
+  max-width: 360px;
+}
+
+.shopButtonContainer {
+  padding: 4px 0;
+  text-align: center;
+}
+
+.infoText {
+  height: 15px;
+  opacity: 0.54;
+  font-size: 12px;
+  font-weight: 500;
+  text-align: center;
+  color: #000000;
+  padding: 8px 8px;
+  margin: auto;
+}
+
+.verticallyMiddle {
+  vertical-align: middle;
+}
+
+.variantMerchantHeaderImageContainer {
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 25px 15px 10px 15px;
+}
+
+.variantMerchantImageContainer {
+}
+
+.variantLogoA {
+  width: 80px;
+  margin-top: 10px;
+}
+
+.variantHeaderColumn {
+  display: inline-block;
+  vertical-align: top;
+  float: left;
+}
+
+.variantHeaderColumn.colLg3 {
+  width: 100px;
+}
+
+.variantHeaderTextA {
+  width: 230px;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 15px;
+}
+
+/********* Variant 3 ******************/
+
+.variantHeaderTextC {
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  padding-left: 15px;
+  margin-top: 10px;
+}
+
+.blockSection {
+  display: block;
+  width: 100%;
+}
+
+.variantLogoC {
+  width: 160px;
+  margin-top: 10px;
+}
+
+.variantLogoD {
+  width: 115px;
+  margin-top: 10px;
+}
+
+.variantImageC {
+  -webkit-box-shadow: -1px 11px 9px -9px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: -1px 11px 9px -9px rgba(0, 0, 0, 0.22);
+  box-shadow: -1px 11px 9px -9px rgba(0, 0, 0, 0.22);
+}
+
+.variantImageD {
+  box-shadow: 0 1px 33px -20px #ac8d8e;
+}
+
+.howToBuyStepsContainer .variantTypeD {
+  margin: 0 auto 30px auto;
+}
+
+.amazonBottomText {
+  font-size: 11px;
+  text-align: left;
+  font-style: italic;
+  width: 250px;
+  margin: 10px auto;
+}
+
+.merchantLogoFix {
+  width: 210px !important;
+  margin-top: 0 !important;
+}
+
+.iconContainer {
+  background-color: #ffffff !important;
+}
+.backIcon {
+  color: #000000 !important;
+}

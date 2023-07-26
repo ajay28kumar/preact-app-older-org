@@ -1,0 +1,5 @@
+export const trackingStage = Object.freeze({
+  ENTER_MOBILE: 'ENTER_MOBILE',
+  LENDER_SELECTION: 'LENDER_SELECTION',
+  TENURE_SELECTION: 'TENURE_SELECTION',
+});

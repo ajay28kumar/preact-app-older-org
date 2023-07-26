@@ -1,0 +1,1158 @@
+* {
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  font-family: Roboto, sans-serif;
+}
+
+html {
+  --primaryThemeColor: #1abc70;
+}
+
+html[data-theme='instaCred'] {
+  --primaryThemeColor: #1abc70;
+  --contrastText: #fff;
+  --textColor: #22995a;
+  --errorColor: #d32f2f;
+}
+
+html[data-theme='instaLend'] {
+  --primaryThemeColor: #5f7cb3;
+  --contrastText: #fff;
+  --textColor: #5f7cb3;
+  --errorColor: #d32f2f;
+}
+
+html[data-theme='idfcFirstBank'] {
+  --primaryThemeColor: #9f2931;
+  --contrastText: #fff;
+  --textColor: #9f2931;
+  --errorColor: #d32f2f;
+}
+
+html[data-theme='federalBank'] {
+  --primaryThemeColor: #777777;
+  --contrastText: #fff;
+  --textColor: #777777;
+  --errorColor: #d32f2f;
+}
+
+html[data-theme='kotak'] {
+  --primaryThemeColor: #ed3838;
+  --contrastText: #fff;
+  --textColor: #d8232a;
+  --errorColor: #d32f2f;
+}
+
+html[data-theme='fullerton'] {
+  --primaryThemeColor: #e4701e;
+  --contrastText: #fff;
+  --textColor: #e4701e;
+  --errorColor: #d32f2f;
+}
+
+html[data-theme='hdfc'] {
+  --primaryThemeColor: #004b8f;
+  --textColor: #004b8f;
+  --errorColor: #d32f2f;
+}
+
+html[data-theme='homeCredit'] {
+  --primaryThemeColor: #c8102e;
+  --contrastText: #fff;
+  --textColor: #c8102e;
+  --errorColor: #d32f2f;
+}
+
+html[data-theme='icici'] {
+  --primaryThemeColor: #f5821f;
+  --contrastText: #fff;
+  --textColor: #f5821f;
+  --errorColor: #d32f2f;
+}
+
+html[data-theme='mahindraFinance'] {
+  --primaryThemeColor: #e41937;
+  --contrastText: #fff;
+  --textColor: #e41937;
+  --errorColor: #d32f2f;
+}
+
+html,
+body {
+  min-height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #eeecec;
+  font-weight: 400;
+  color: #000000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+body.backgroundOverride {
+}
+
+body.noScroll {
+  overflow: hidden !important;
+}
+
+/* fallback */
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/materialicons/v29/2fcrYFNaTjcS6g4U3t-Y5UEw0lE80llgEseQY3FEmqw.woff2)
+    format('woff2');
+}
+
+.material-icons {
+  font-family: 'Material Icons', sans-serif;
+  font-size: 24px;
+  line-height: 1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.mdc-theme--dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.page {
+  padding-top: 20px;
+}
+
+.primary-color {
+  color: var(--primaryThemeColor, #1abc70);
+}
+
+.text-color {
+  color: var(--textColor) !important;
+  opacity: 1;
+}
+
+.contrast-color {
+  color: var(--contrastText) !important;
+}
+
+.mdc-top-app-bar {
+  background-color: var(--primaryThemeColor, #1abc70);
+  box-shadow: 0 5px 4px 0 rgba(0, 0, 0, 0.17);
+  color: #000000 !important;
+  position: static !important;
+}
+
+.mdc-drawer--modal {
+  top: 0 !important;
+  left: 0 !important;
+  display: flow-root !important;
+}
+
+.mdc-top-app-bar__icon {
+  cursor: pointer;
+}
+
+.mdc-text-field {
+  width: 100% !important;
+}
+
+.mdc-select {
+  width: 100% !important;
+}
+
+.mdc-button {
+  min-height: 40px;
+  margin: 0 auto;
+}
+
+.mdc-button:disabled {
+  border-radius: 22px;
+}
+
+.mdc-card__actions {
+  padding: 15px !important;
+}
+
+.mdc-text-field .mdc-text-field__input {
+  caret-color: #808080 !important;
+}
+
+input:active {
+  box-shadow: 0 0 12px 0 rgba(76, 76, 76, 0.2);
+}
+
+.mdc-text-field--focused:not(.mdc-text-field--disabled) .mdc-floating-label {
+  color: var(--primaryThemeColor, #1abc70) !important;
+}
+
+.mdc-text-field .mdc-line-ripple {
+  background-color: var(--primaryThemeColor, #1abc70) !important;
+}
+
+.mdc-text-field:not(.mdc-text-field--disabled) {
+  background-color: #ffffff !important;
+}
+
+.mdc-select:not(.mdc-select-disabled)
+  .mdc-select__native-control:focus
+  ~ .mdc-floating-label {
+  color: var(--primaryThemeColor, #1abc70) !important;
+}
+
+.mdc-select:not(.mdc-select-disabled)
+  .mdc-select__native-control:focus
+  ~ .mdc-line-ripple {
+  background-color: var(--primaryThemeColor, #1abc70) !important;
+}
+
+.mdc-button--raised:not(:disabled),
+.mdc-button--unelevated:not(:disabled) {
+  border-radius: 22px;
+  padding: 0 18px;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+  width: 100%;
+}
+
+.showInline {
+  display: inline !important;
+}
+
+.mdc-linear-progress__bar-inner {
+  background-color: #4dbe0e !important;
+}
+
+#successBanner {
+  background-color: #64dd17 !important;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+  font-weight: 500;
+  position: absolute;
+  width: 100%;
+}
+
+.mdc-switch__thumb,
+.mdc-switch.mdc-switch--checked .mdc-switch__track {
+  background-color: #4dbe0e !important;
+  border-color: #4dbe0e !important;
+}
+
+.mdc-switch:not(.mdc-switch--checked) .mdc-switch__thumb {
+  background-color: #fff !important;
+  border-color: #fff !important;
+}
+
+.mdc-snackbar {
+  background-color: #f50057 !important;
+}
+
+.mdc-dialog__footer__button.mdc-button::before,
+.mdc-button::after {
+  background-color: #00a152 !important;
+}
+
+.mdc-dialog__footer__button.mdc-button:not(:disabled) {
+  color: #4dbe0e !important;
+}
+
+input,
+input:focus,
+.mdc-text-field:not(.mdc-text-field--disabled),
+.mdc-text-field::before,
+.mdc-text-field::after {
+  /* background-color: #fff !important; */
+}
+
+input {
+  text-align: center !important;
+}
+
+input[type='text'] {
+  text-align: center !important;
+}
+
+.mdc-snackbar.success {
+  background-color: #00e676 !important;
+}
+
+#flexLayoutGrid.mdc-layout-grid {
+  padding: 0 !important;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+.fpPrimaryButton {
+  background-color: var(--primaryThemeColor, #1abc70) !important;
+  border-radius: 4px !important;
+  box-shadow: none !important;
+  outline: none !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  font-stretch: normal !important;
+  line-height: normal !important;
+  letter-spacing: normal !important;
+  text-align: center !important;
+  color: #ffffff !important;
+  padding: 12px 26px !important;
+  border: 0 !important;
+  text-transform: uppercase !important;
+  cursor: pointer !important;
+}
+
+.fpPrimaryButton.genericButton {
+  background-color: var(--primaryThemeColor, #1abc70);
+  max-width: 300px;
+}
+
+.fpPrimaryButton:disabled {
+  background-color: #c5c5c5 !important;
+  color: #ffffff !important;
+}
+
+.emi-modal {
+  padding: 0 !important;
+}
+
+.emi-modal .mdc-dialog__body {
+  margin-top: 0 !important;
+  padding: 0;
+}
+
+.emi-modal .mdc-dialog__header {
+  padding: 0 !important;
+}
+
+.emi-modal #modalTable {
+  font-size: 0.6rem;
+  line-height: 12px;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.mdc-dialog--open .mdc-dialog__backdrop {
+  opacity: 0.6 !important;
+}
+
+.mdc-dialog--open {
+  background: transparent !important;
+  border: 0 !important;
+}
+
+.fpDrawerBackdrop {
+  background-color: #000000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+  z-index: 2;
+}
+
+.lenderBenefitsPopup {
+  max-width: 480px;
+}
+
+.textRight {
+  text-align: right;
+}
+
+.showOnDesktop {
+  display: block;
+}
+
+.showOnMobile {
+  display: none;
+}
+
+#modalTable td,
+#modalTable th {
+  text-align: center;
+  font-size: 14px;
+  color: #000000;
+  font-weight: 400;
+  padding: 12px 0;
+  cursor: pointer;
+}
+
+#modalTable td {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+#modalTable td:last-child,
+#modalTable th:last-child {
+  border-right: none;
+}
+
+#modalTable td:first-child,
+#modalTable th:first-child {
+  border-left: none;
+}
+
+#modalTable th {
+  border-top: none;
+  font-weight: normal;
+  vertical-align: top;
+}
+
+#modalTable #borderRows {
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  cursor: pointer;
+}
+
+#modalTable th {
+  padding: 10px;
+  color: #000;
+  font-size: 11px;
+}
+
+.tnc-modal .mdc-dialog__footer__button.mdc-button:not(:disabled) {
+  background-color: var(--primaryThemeColor, #1abc70) !important;
+  border-radius: 22px !important;
+  box-shadow: none !important;
+  outline: none !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  line-height: normal !important;
+  letter-spacing: normal !important;
+  text-align: center !important;
+  color: #ffffff !important;
+  border: 0 !important;
+  text-transform: uppercase !important;
+  cursor: pointer !important;
+}
+
+.tnc-modal .dialogClose {
+  position: absolute;
+  right: 10px;
+  top: 9px;
+  font-size: 28px;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.emiRows {
+  box-shadow: 0 0 12px 0 rgba(76, 76, 76, 0.2);
+  background-color: #ffffff;
+  border-radius: 3px;
+}
+
+.rowSelected {
+  background-color: #f4f1c4;
+}
+
+.emi-modal .mdc-dialog__body--scrollable,
+.tnc-modal .mdc-dialog__body--scrollable {
+  max-height: 320px;
+}
+
+.text14 {
+  font-size: 14px !important;
+}
+
+#modalTable .radio input[type='radio']:after,
+#modalTable .radio-inline input[type='radio']:after,
+#modalTable input[type='radio']:after {
+  position: relative;
+  top: -3px;
+  border: 2px solid #666;
+}
+
+.selectRow {
+  outline: 1px solid #009572;
+}
+
+#modalTable .selectRow td {
+  font-weight: bold;
+  color: #000000;
+}
+
+::placeholder {
+  color: #595959 !important;
+}
+
+.loaderContainer {
+  height: 65vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#LoadingContainer {
+  background-color: #fff;
+  height: 100%;
+  text-align: center;
+  padding-top: 50%;
+}
+
+.tncSectionHeader {
+  font-size: 16px;
+}
+
+.tncSubHeader {
+  font-size: 12px;
+}
+
+.tncParagraph {
+  font-size: 14px;
+}
+
+.lenderBenefitsPopup footer.mdc-dialog__footer {
+  display: none;
+}
+
+#LoadingContainer .lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 64px;
+  height: 64px;
+}
+
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  margin: 6px;
+  border: 6px solid #fff;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: var(--primaryThemeColor) transparent transparent transparent;
+}
+
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.text-underline {
+  text-decoration: underline;
+}
+
+.btn {
+  cursor: pointer;
+  border: 0;
+}
+
+.genericButtonFilled {
+  width: 100%;
+  max-width: 320px;
+  height: 44px;
+  border-radius: 22px;
+  background-color: var(--primaryThemeColor, #1abc70) !important;
+  color: #fff !important;
+}
+
+.genericButtonBorderd {
+  width: 320px;
+  height: 44px;
+  border-radius: 22px;
+  border: solid 1px #5aba85;
+  color: #5aba85 !important;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  color: #9c9c9c !important;
+}
+
+.slick-next {
+  right: -16px !important;
+  z-index: 2;
+}
+
+.slick-prev {
+  left: -16px !important;
+  z-index: 2;
+}
+
+.slick-list {
+  padding-left: 8px !important;
+  margin-right: 8px !important;
+}
+
+.howToBuyVariantDSliderContainer .slick-track {
+  min-width: 1668px !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.errorColor {
+  color: var(--errorColor) !important;
+}
+
+.inputError {
+  text-align: left;
+  font-size: 12px;
+  color: var(--errorColor);
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+.inputError input {
+  border: 2px solid var(--errorColor);
+}
+
+/*overriding the existing design of material error input-box. Need to remove it after getting material-implementation*/
+
+.mdc-text-field--outlined.mdc-text-field--invalid:not(.mdc-text-field--disabled)
+  .mdc-notched-outline__path {
+  stroke: var(--errorColor) !important;
+}
+
+.mdc-dialog__surface {
+  max-width: 960px !important;
+  min-width: 300px !important;
+  border-radius: 8px !important;
+}
+
+.toast-message-outer-wrapper {
+  position: fixed;
+  z-index: 9999;
+  color: #fff;
+  font-size: 12px;
+  width: 100%;
+  text-align: center;
+  bottom: 10%;
+  margin: 0 auto;
+}
+
+.toast-message-container {
+  background: #666666;
+  padding: 12px;
+  display: inline-block;
+  border-radius: 24px;
+}
+
+.emi-modal.mdc-dialog .mdc-dialog__body {
+  padding: 0 !important;
+}
+
+.mobile {
+  display: none !important;
+}
+
+.mdc-top-app-bar__row {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.highLightText {
+  color: #4dbe0e;
+}
+
+.mdc-text-field--outlined:not(.mdc-text-field--disabled).mdc-text-field--focused
+  .mdc-notched-outline__path {
+  stroke: var(--primaryThemeColor, #1abc70) !important;
+}
+
+.mdc-text-field::before,
+.mdc-text-field::after {
+  width: 100% !important;
+}
+
+.mdc-checkbox__native-control:enabled:checked ~ .mdc-checkbox__background,
+.mdc-checkbox__native-control:enabled:indeterminate
+  ~ .mdc-checkbox__background {
+  border-color: var(--primaryThemeColor, #1abc70) !important;
+  background-color: var(--primaryThemeColor, #1abc70) !important;
+}
+
+.mdc-checkbox__native-control {
+  top: 11px !important;
+  left: 11px !important;
+  opacity: 0 !important;
+}
+
+.mdc-checkbox::before,
+.mdc-checkbox::after {
+  background-color: var(--primaryThemeColor, #1abc70) !important;
+}
+
+.slick-dots li.slick-active div {
+  background-color: var(--primaryThemeColor, #1abc70);
+}
+
+.mdc-drawer .mdc-list-item {
+  cursor: pointer !important;
+}
+
+.mdc-theme--primary-bg {
+  background-color: transparent !important;
+}
+
+.mdc-drawer .mdc-list-item--activated {
+  color: #000000 !important;
+}
+
+.mdc-drawer .mdc-list-item--activated span {
+  font-weight: bold !important;
+}
+
+.mdc-drawer .mdc-list-item {
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
+
+:not(.mdc-list--non-interactive)
+  > :not(.mdc-list-item--disabled).mdc-list-item--activated::before,
+:not(.mdc-list--non-interactive)
+  > :not(.mdc-list-item--disabled).mdc-list-item--activated::after,
+:not(.mdc-list--non-interactive)
+  > :not(.mdc-list-item--disabled).mdc-list-item--activated:hover::before,
+:not(.mdc-list--non-interactive)
+  > :not(.mdc-list-item--disabled).mdc-list-item--activated::before,
+:not(.mdc-list--non-interactive)
+  > :not(.mdc-list-item--disabled).mdc-list-item--activated::after {
+  background-color: #716f6f !important;
+}
+
+.mdc-drawer .mdc-list-item {
+  margin-bottom: 4px !important;
+}
+
+.filterActive {
+  border-bottom: solid 4px #912c31;
+  color: #912c31 !important;
+}
+
+#copyContent {
+  height: 0px;
+  position: absolute;
+  z-index: -1;
+  box-shadow: none;
+  outline: none;
+  border: 0;
+  padding: 0;
+}
+
+.filterActive {
+  color: var(--primaryThemeColor, #1abc70) !important;
+  border-bottom: solid 4px var(--primaryThemeColor, #1abc70) !important;
+}
+
+.linkColor {
+  color: var(--textColor) !important;
+  text-decoration: underline;
+  opacity: 1;
+}
+
+.emi-modal.mdc-dialog--open .mdc-dialog__surface {
+  width: 100%;
+  max-width: 500px !important;
+}
+
+.maxWidth360Container {
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.maxWidth480Container {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.maxWidth960Container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.margin0 {
+  margin: 0;
+}
+
+.text40 {
+  opacity: 0.4;
+}
+
+.text60 {
+  opacity: 0.6;
+}
+
+.text80 {
+  opacity: 0.8;
+}
+
+.font10 {
+  font-size: 10px;
+}
+
+.font12 {
+  font-size: 12px !important;
+}
+
+.font14 {
+  font-size: 14px !important;
+}
+
+.font16 {
+  font-size: 16px;
+}
+
+.font18 {
+  font-size: 18px;
+}
+
+.font20 {
+  font-size: 20px;
+}
+
+.font24 {
+  font-size: 24px;
+}
+
+.font28 {
+  font-size: 28px;
+}
+
+.line-height-20 {
+  line-height: 20px;
+}
+
+.line-height-24 {
+  line-height: 24px;
+}
+
+.amountSuggestionActive {
+  border: 1px solid #009572 !important;
+}
+
+.genericButtonContainer {
+  display: flex !important;
+}
+
+.genericButtonContainer button {
+  height: 50px !important;
+}
+
+#countdown {
+  position: relative;
+  margin: auto;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+}
+
+#countdownNumber {
+  color: var(--primaryThemeColor, #1abc70);
+  display: inline-block;
+  line-height: 40px;
+}
+
+#countdown svg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  transform: rotateY(-180deg) rotateZ(-90deg);
+}
+
+#countdown svg circle {
+  stroke-dasharray: 113px;
+  stroke-dashoffset: 0;
+  stroke-linecap: round;
+  stroke-width: 4px;
+  stroke: var(--primaryThemeColor, #1abc70);
+  fill: none;
+  animation: countdown 30s linear infinite forwards;
+}
+
+.invalidInput {
+  position: relative;
+  -moz-animation: wrongLog 0.3s;
+  -webkit-animation: wrongLog 0.3s;
+  animation: wrongLog 0.3s;
+}
+
+.invalidInput input {
+  border: 2px solid #ed1c24;
+}
+
+.previousButton,
+.previousButton.mdc-dialog__footer__button.mdc-button::before,
+.previousButton.mdc-button::after,
+.previousButton.mdc-button--raised:not(:disabled),
+.previousButton.mdc-button--unelevated:not(:disabled) {
+  background-color: #ffffff !important;
+  color: #00a152 !important;
+}
+
+.height35 {
+  height: 35px;
+}
+
+.header {
+  font-size: 18px;
+  color: #000000;
+}
+
+.header-shadow {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12);
+}
+
+::placeholder {
+  color: red;
+}
+
+.flex-horizontal-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-horizontal-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+b {
+  font-weight: bold;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.semi-bold-text {
+  font-weight: 500;
+}
+
+.transaction-header {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.payLaterContainer .mdc-radio {
+  width: 36px;
+  height: 36px;
+}
+
+.payLaterContainer .mdc-radio__outer-circle {
+  top: 0.5px;
+  left: 0.5px;
+}
+
+.payLaterContainer .mdc-radio__inner-circle {
+  top: -0.5px;
+  left: -0.5px;
+}
+
+.activation-container {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container {
+  padding: 0;
+  max-width: 280px;
+  min-width: 250px;
+  width: 100%;
+}
+
+.tenureTypeContainer {
+  font-size: 12px;
+  text-transform: lowercase;
+}
+
+.textLowerCase {
+  text-transform: lowercase;
+}
+
+.textButton {
+  color: #4a90e2;
+}
+
+.listStyleNone {
+  list-style-type: none;
+}
+.paddingLeft20 {
+  padding-left: 20px;
+}
+
+.marginTB10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/*****Drawer Customization**************************/
+
+.mdc-drawer {
+  width: 288px !important;
+  max-width: 288px !important;
+}
+
+.mdc-drawer__header {
+  min-height: 48px !important;
+  padding: 0 8px 4px !important;
+}
+
+.menuHeaderHelloText {
+  color: var(--textColor) !important;
+  margin-right: 4px;
+}
+
+.mdc-drawer .mdc-list-item {
+  height: 44px !important;
+}
+
+/*****Drawer Customization**************************/
+
+/************* Error Transaction Modal Loader Override Start**************/
+
+.block__modal--loader .lds-ring div {
+  margin: 0;
+}
+
+/************* Error Transaction Modal Loader Override End**************/
+
+/*****Custom animation Start*****/
+
+@-moz-keyframes wrongLog {
+  0%,
+  100% {
+    left: 0px;
+  }
+  20%,
+  60% {
+    left: 15px;
+  }
+  40%,
+  80% {
+    left: -15px;
+  }
+}
+
+@-webkit-keyframes wrongLog {
+  0%,
+  100% {
+    left: 0px;
+  }
+  20%,
+  60% {
+    left: 15px;
+  }
+  40%,
+  80% {
+    left: -15px;
+  }
+}
+
+@keyframes wrongLog {
+  0%,
+  100% {
+    left: 0px;
+  }
+  20%,
+  60% {
+    left: 15px;
+  }
+  40%,
+  80% {
+    left: -15px;
+  }
+}
+
+@keyframes countdown {
+  from {
+    stroke-dashoffset: 0px;
+  }
+  to {
+    stroke-dashoffset: 113px;
+  }
+}
+
+/*****Custom animation End*****/
+
+@media only screen and (min-width: 1201px) {
+  body {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .emi-modal.mdc-dialog--open .mdc-dialog__surface {
+    height: 100%;
+    width: 100%;
+  }
+  .desktop {
+    display: none !important;
+  }
+  .mobile {
+    display: block !important;
+  }
+  #modalTable td,
+  #modalTable th {
+    font-size: 12px;
+  }
+  .showOnDesktop {
+    display: none;
+  }
+  .showOnMobile {
+    display: block;
+  }
+}

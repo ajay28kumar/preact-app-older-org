@@ -1,0 +1,34 @@
+.paymentBenefits {
+  height: 100%;
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.successIcon {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primaryThemeColor, #1abc70);
+}
+
+.successIconImage {
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.successMessage {
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.infoText {
+  margin-top: 5px;
+  text-align: left;
+  line-height: 18px;
+}

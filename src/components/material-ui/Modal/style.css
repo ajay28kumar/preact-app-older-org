@@ -1,0 +1,30 @@
+.modal__wrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.modal__backdrop {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: inherit;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal__backdrop.clickable {
+  cursor: pointer;
+}
+
+.modal__container {
+  position: relative;
+  z-index: inherit;
+  box-shadow: 0px 0px 8px 2px rgb(0, 0, 0, 0.3);
+  border-radius: 8px;
+  overflow: hidden;
+}

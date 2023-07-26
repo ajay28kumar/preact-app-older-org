@@ -1,0 +1,259 @@
+.activationContainer {
+  background-color: #ffffff;
+  min-height: calc(100vh - 48px);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.benefitImage {
+  margin-top: 35px;
+  width: 240px;
+  min-height: 100px;
+}
+
+.merchantLogo {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.merchantLogo img {
+  max-width: 100%;
+  max-height: 45px;
+}
+.otpDescription {
+  width: 100%;
+  padding: 8px 0 16px 0;
+}
+
+.shopLaterText {
+  margin-top: 10px;
+}
+
+.merchantContainer {
+  padding-top: 30px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.merchantDetails {
+  margin: 16px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.merchantHeader {
+  margin: 16px auto;
+}
+
+.merchantImages {
+  text-align: center;
+}
+
+.merchantImageContainer {
+  display: inline-block;
+  position: relative;
+  height: 76px;
+  width: 132px;
+}
+
+.image {
+  display: inline-block;
+  text-align: center;
+  height: 64px;
+  width: 120px;
+}
+.image img {
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  height: 64px;
+  width: 120px;
+}
+
+.brandContainer {
+  margin-top: 6px;
+  padding: 16px;
+  background-color: #f9f9f9;
+}
+.categoryContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.tileContainer {
+  display: inline-block;
+  position: relative;
+  align-items: center;
+  margin-top: 20px;
+  width: 130px;
+}
+.categoryDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageContainer {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+    0 1px 10px 0 rgba(0, 0, 0, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.filterImage {
+  height: 64px;
+  width: 64px;
+  filter: grayscale(100%);
+}
+
+.tileDescription {
+  padding-top: 16px;
+}
+.registerContainer {
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14),
+    0 1px 10px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  margin: 32px auto 64px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 480px;
+}
+
+.inputContainer {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.inputBox {
+  height: 40px;
+  width: 190px !important;
+}
+
+.submitButton {
+  /*text-align: right;*/
+}
+
+.widgetContainer {
+  width: 324px;
+}
+.header {
+  margin-bottom: 12px;
+}
+.activationPrompt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  position: fixed;
+  bottom: 0;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  text-align: center;
+  box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.16),
+    0 14px 32px -16px rgba(0, 0, 0, 0.32);
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 16px 0;
+}
+
+.closeButton {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.shakeWidget {
+  box-shadow: 0 2px 4px -1px rgba(204, 0, 0, 1), 0 4px 5px 0 rgba(204, 0, 0, 1),
+    0 1px 10px 0 rgba(204, 0, 0, 1);
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: 2;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(1px, 1px);
+  }
+  10% {
+    transform: translate(-1px, -2px);
+  }
+  20% {
+    transform: translate(-3px, 0px);
+  }
+  30% {
+    transform: translate(3px, 2px);
+  }
+  40% {
+    transform: translate(1px, -1px);
+  }
+  50% {
+    transform: translate(-1px, 2px);
+  }
+  60% {
+    transform: translate(-3px, 1px);
+  }
+  70% {
+    transform: translate(3px, 1px);
+  }
+  80% {
+    transform: translate(-1px, -1px);
+  }
+  90% {
+    transform: translate(1px, 2px);
+  }
+  100% {
+    transform: translate(1px, -2px);
+  }
+}
+
+.terms {
+  display: flex;
+  vertical-align: center;
+}
+.tncCheckbox {
+  border-radius: 2px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: top;
+  float: left;
+  margin-left: -5px;
+}
+
+.tncCheckbox input {
+  width: 18px;
+  height: 18px;
+  border-color: var(--primaryThemeColor, #4dbe0e);
+}
+
+.agreeTnc {
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.tncHighlight {
+  margin: 0 5px;
+}

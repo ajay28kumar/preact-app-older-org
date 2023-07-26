@@ -1,0 +1,32 @@
+.mobileContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.loginHeader {
+  margin-bottom: 30px;
+}
+
+.loginContainer {
+  width: 280px;
+  margin: 0 auto;
+}
+.inputName {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.forgetPin {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: right;
+}
+.requestButtonContainer {
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.requestButtonContainer div button {
+  width: 100%;
+}

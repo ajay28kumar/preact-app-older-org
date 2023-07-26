@@ -1,0 +1,13 @@
+.registrationSuccess {
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.header {
+  font-size: 28px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #000;
+  text-transform: capitalize;
+}

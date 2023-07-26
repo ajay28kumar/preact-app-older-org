@@ -1,0 +1,199 @@
+.emiPanel {
+  position: relative;
+  background-color: #ffffff;
+  margin: 5px 0;
+  box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.12) !important;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.activePanel {
+  box-shadow: 0 3px 1px -2px rgba(34, 153, 90, 0.4),
+    0 2px 2px 0 rgba(34, 153, 90, 0.34), 0 1px 5px 0 rgba(34, 153, 90, 0.34) !important;
+  border: 1px solid #22995a;
+}
+.noCostEmiBadgeContainer {
+  position: absolute;
+  height: 20px;
+  width: 124px;
+  top: -8px;
+  right: 20px;
+}
+
+.noCostEmiBadge {
+  background-color: #ffe7b7;
+  border: 1px solid rgba(255, 180, 180, 0.1);
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.emiLayout {
+  width: 100%;
+}
+
+.emiDetails {
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.emiGrid {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.gridMonth {
+  width: 50%;
+}
+
+.centerItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.emiPanelPartialColor {
+  background-color: #f7f7f7;
+  border-radius: 6px;
+}
+
+.activePanel .emiDetails .emiPanelPartialColor {
+  background-color: rgba(26, 188, 112, 0.12);
+}
+
+.monthlyInstallment {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.totalAmountContainer {
+  font-weight: bold;
+}
+
+.interestRate {
+  font-size: 12px;
+  opacity: 0.6;
+  padding-top: 2px;
+}
+
+.duration {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.emiDetailsText {
+  color: rgba(3, 3, 3, 0.5);
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.emiRoundUp {
+  opacity: 0.6;
+  font-size: 12px;
+  text-align: left;
+  margin: 10px 0;
+}
+
+.button {
+  min-width: 280px !important;
+}
+
+.payLater .interestRate {
+  font-weight: bold;
+}
+
+.payLater .payLaterGrid {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.emiAmount {
+  text-align: right;
+}
+
+.payLaterGrid .monthlyInstallment {
+  font-size: 14px;
+}
+
+.payLaterGrid .monthlyInstallment.totalLoanAmount {
+  font-weight: bold;
+  opacity: 1 !important;
+}
+
+.payLaterGrid .interestRateBadge {
+  border-radius: 14px;
+  background-color: var(--primaryThemeColor);
+  color: #ffffff;
+  margin-top: 3px;
+  height: 28px;
+}
+
+.payLater.emiPanel {
+}
+
+.payLater .monthlyInstallment .rupeeIconContainer {
+  font-size: 12px;
+}
+
+.payLater .tenureTypeContainer {
+  font-size: 12px;
+}
+
+.payLater .loanDurationContainer {
+  opacity: 0.6;
+}
+
+.expandableColumn {
+  height: 60px;
+  max-height: 100%;
+  transition: height 3s, opacity 2.9s 0.1s;
+}
+
+.emiDetailsWrapper {
+  display: flex;
+  height: 60px;
+  align-items: center;
+}
+
+.paymentScheduleContainer {
+  width: 33%;
+}
+.paymentScheduleWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.emiDetailsContainer {
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.emiDatesWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.emiDivider {
+  border-left: 2px solid rgba(0, 0, 0, 0.2);
+  height: 40px;
+}
+.emiDates {
+  margin-left: 20px;
+}
+
+.payLaterSubHeaderList {
+  padding-left: 20px;
+}

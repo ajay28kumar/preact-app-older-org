@@ -1,0 +1,174 @@
+.merchantContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.merchant {
+  width: 160px;
+  margin: 5px;
+}
+.filterContainer {
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+.filterHeaderContainer {
+  padding: 20px 16px 0 16px;
+  border-bottom: solid 1px #00000014;
+  float: left;
+  width: 100%;
+  min-height: 40px;
+}
+.filterNameColumn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nameContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.containWrapper {
+  text-align: center;
+}
+
+.filterActive {
+  width: 100%;
+  border-bottom: solid 4px var(--primaryThemeColor, #1abc70) !important;
+  margin-top: 10px;
+}
+.searchContainer {
+  margin: 10px 10px 0;
+}
+.searchBox {
+  height: 48px !important;
+}
+.searchBox i {
+  top: 14px;
+}
+
+.searchBox input[type='text'] {
+  text-align: left !important;
+}
+
+.brandContainer {
+  display: inline-block;
+  position: relative;
+}
+
+.activeBrand div {
+  border: 1px solid var(--primaryThemeColor);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  opacity: 0.6;
+}
+
+.activeCategory {
+  border: 2px solid var(--primaryThemeColor) !important;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2) !important;
+}
+.categoryContainer {
+  border-radius: 4px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.08),
+    0 6px 20px -12px rgba(0, 0, 0, 0.16);
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8px;
+}
+.categoryWrapper {
+  display: flex;
+  align-items: center;
+}
+.categoryImage {
+  height: 40px;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+.filterImage {
+  filter: grayscale(100%);
+}
+.categoryCheckIcon {
+  margin-right: 24px;
+}
+.image {
+  position: relative;
+  text-align: center;
+  margin: 8px;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  padding: 5px;
+}
+
+.checkbox {
+  position: absolute;
+  color: #ffffff;
+  right: 0;
+  top: 0;
+  background-color: var(--primaryThemeColor);
+  z-index: 2;
+}
+.brandCheckBox {
+  position: absolute;
+  color: #ffffff;
+  right: 10px;
+  top: 10px;
+  background-color: var(--primaryThemeColor);
+  z-index: 2;
+}
+.checkIcon {
+  font-size: 18px;
+}
+
+.headerWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 56px;
+  box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.16),
+    0 14px 32px -16px rgba(0, 0, 0, 0.32);
+  background-color: #ffffff;
+  z-index: 2;
+}
+.buttonWrapper {
+  display: flex;
+}
+.clearButton button {
+  background-color: #ffffff !important;
+  color: var(--primaryThemeColor) !important;
+}
+
+.headerButton button {
+  height: 40px !important;
+}
+
+.badgeContainer {
+  position: relative;
+}
+
+.badgeCircle {
+  position: absolute;
+  top: -13px;
+  left: 25px;
+}
+
+.badgeCount {
+  height: 20px;
+  width: 20px;
+  background-color: var(--primaryThemeColor);
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

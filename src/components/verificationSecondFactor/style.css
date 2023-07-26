@@ -1,0 +1,92 @@
+.titleContainer {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titleField {
+  margin: 24px 0 8px 0;
+  width: 100%;
+}
+
+.inputContainer {
+  border: 1px solid transparent;
+  position: relative;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.debitCardInput input {
+  font-size: 14px;
+}
+
+.verifyMobileActionContainer {
+  padding-top: 16px;
+  max-width: 280px;
+  min-width: 250px;
+}
+
+.verifyMobileActionContainer button {
+  width: 100%;
+}
+.dialogHeader {
+  color: #000000;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+
+/***Payment Flow***/
+
+.paymentAivfContainer {
+  max-width: 320px;
+  margin: 10px auto;
+}
+
+.aivfHeader {
+  font-weight: bold;
+  font-size: 18px;
+  text-align: left;
+}
+
+.aivfSubHeader {
+  text-align: left;
+  font-size: 13px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.fpFormControl {
+  width: 100%;
+  height: 48px;
+  border-radius: 3px;
+  background-color: #fff;
+  border: solid 1px #eaeaea;
+  color: #8c8c8c;
+  text-align: left;
+  padding-left: 42px;
+  font-size: 12px;
+  padding-right: 8px;
+  position: relative;
+  cursor: pointer;
+}
+
+.inputIcon {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: 1;
+}
+
+/***Payment Flow***/
+.resendOtpWrapper {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.textCenter {
+  text-align: center;
+  text-decoration: underline;
+  color: var(--primaryThemeColor, #60b260);
+}

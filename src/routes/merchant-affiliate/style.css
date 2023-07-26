@@ -1,0 +1,106 @@
+.affilatePage {
+  background-color: #ffffff;
+  padding-bottom: 10px;
+}
+
+.merchantProductContainer {
+  height: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.productTile {
+  border-radius: 6px;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  width: auto !important;
+  display: block !important;
+  max-width: 100% !important;
+  margin-right: 10px !important;
+  margin-bottom: 5px !important;
+  cursor: pointer;
+}
+
+.inlineBlock {
+  display: inline-block !important;
+  width: 44% !important;
+  max-width: 200px !important;
+  margin: 8px;
+}
+
+.productImg {
+  text-align: center;
+  padding: 10px;
+}
+
+.productDescription {
+  font-size: 12px;
+  font-weight: bold;
+  color: #000000;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 3px 10px;
+}
+
+.productPrice {
+  text-align: center;
+  font-size: 14px;
+  color: #000000;
+  font-weight: bold;
+}
+
+.shopNowContainer {
+  padding-top: 8px;
+}
+
+.shopNowContainer input {
+  cursor: pointer;
+}
+
+.shopNowBtn {
+  width: 100%;
+  outline: none;
+  background-color: #9f2931;
+  color: #ffffff;
+  border: 0;
+  padding: 10px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.merchantInfoContainer {
+  max-width: 960px;
+  margin: 22px auto;
+  padding: 0 10px 22px 10px;
+  border-bottom: 1px solid #00000014;
+}
+
+.merchantLogoContainer {
+  width: 85px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.merchantLogoContainer img {
+  width: 82px;
+  margin-top: 10px;
+}
+
+.merchantNameContainer {
+  width: 181px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 18px;
+  margin-left: 22px;
+}
+
+.merchantNameContainer strong {
+  font-weight: bold;
+}
+
+.continueToShopContainer {
+  text-align: center;
+  margin: 20px;
+}

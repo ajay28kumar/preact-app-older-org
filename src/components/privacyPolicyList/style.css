@@ -1,0 +1,29 @@
+.container {
+  margin-top: 10px;
+}
+
+.termsHeader {
+  margin-left: 10px;
+}
+
+.headerText {
+  margin-bottom: 5px;
+}
+
+.underLineText {
+  text-decoration: underline;
+}
+
+ol {
+  padding-top: 5px;
+}
+
+ul,
+ol {
+  padding-left: 20px;
+}
+
+ul li,
+ol li {
+  padding-bottom: 5px;
+}

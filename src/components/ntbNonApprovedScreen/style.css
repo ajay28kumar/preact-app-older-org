@@ -1,0 +1,92 @@
+.ntbLandingPageContainer {
+  background-color: #1abc70;
+}
+
+.instaCredHeaderBranding {
+  padding: 10px 20px;
+  text-align: right;
+}
+
+.instaCredImg {
+  width: 85px;
+}
+
+.registrationMessageContainer {
+  width: 248px;
+  margin: 16px auto;
+}
+
+.thankYouContainer {
+  padding-top: 16px;
+}
+
+.eligibilityContainer {
+  width: 248px;
+  margin: 12px auto 0 auto;
+}
+
+.activationPoints {
+  width: 250px;
+  margin: 30px auto 0px auto;
+}
+
+.activationImage {
+  width: 116px;
+  height: 208px;
+  display: inline-block;
+}
+
+.activationStepsText {
+  display: inline-block;
+  width: 126px;
+  vertical-align: top;
+  color: #000000b8;
+  margin-top: 15px;
+}
+
+.activationStepsText strong {
+  font-weight: 600;
+}
+
+.secondLineText {
+  margin-left: 16px;
+}
+
+.checkMark {
+  color: #1abc70;
+}
+
+.activationSteps {
+  margin-bottom: 10px;
+}
+
+.activationImage img {
+  width: 90%;
+}
+
+.downloadRedirectLink {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.playStoreIcon {
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.downloadButtonText {
+  margin-top: -25px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.downloadButton {
+  width: 243px;
+  border-radius: 4px;
+}
+.submitButton {
+  display: flex;
+  margin-top: 32px;
+  padding-bottom: 8px;
+}

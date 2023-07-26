@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 24px;
+}
+
+.headerContainer {
+  margin-bottom: 8px;
+}
+
+.submitButton {
+  width: 250px !important;
+}

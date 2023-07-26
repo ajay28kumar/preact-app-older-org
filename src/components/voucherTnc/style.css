@@ -1,0 +1,45 @@
+.voucherTncHeader {
+  width: 100%;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+.voucherTncHeader img {
+  width: 100%;
+}
+
+.termsContainer {
+  padding: 15px 15px 0 15px;
+}
+
+.voucherTermsListHolder {
+  padding-left: 24px;
+  list-style: none;
+  /* Remove default bullets */
+  margin-top: 0px;
+}
+
+.voucherTermsListHolder li {
+  font-size: 14px;
+  line-height: 1.53;
+  color: #000000;
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.voucherTermsListHolder li strong {
+  font-weight: bold;
+}
+
+.voucherTermsListHolder li::before {
+  content: '\2022';
+  color: #ccc;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  font-size: 32px;
+  position: absolute;
+  top: -13px;
+  left: 12px;
+}

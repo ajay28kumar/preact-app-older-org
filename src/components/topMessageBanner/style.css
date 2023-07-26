@@ -1,0 +1,21 @@
+.successBanner {
+  background-color: #64dd17 !important;
+  text-align: center;
+  padding: 12px;
+  color: #fff;
+  font-weight: 500;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+
+.errorBanner {
+  background-color: #dd2212 !important;
+  text-align: center;
+  padding: 12px;
+  color: #fff;
+  font-weight: 500;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}

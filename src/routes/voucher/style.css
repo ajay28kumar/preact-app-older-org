@@ -1,0 +1,484 @@
+.voucherPage {
+  background-color: #fff;
+  height: 100%;
+}
+
+.pageTitle {
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  color: #000000;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #0000000d;
+}
+
+.linkText {
+  color: #60b260;
+  text-decoration: underline;
+}
+
+.voucherFormContainer {
+  padding: 20px 16px;
+  background-color: #fff;
+}
+
+.lineSeparator {
+  background-color: #ffffff;
+  height: 1px;
+  opacity: 0.6;
+}
+
+.merchantInforContainer {
+  max-width: 360px;
+  margin: 22px auto;
+  padding: 0 22px;
+}
+
+.merchantLogoContainer {
+  width: 85px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.merchantNameContainer {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 22px;
+}
+
+.noCostText {
+  font-size: 14px;
+  margin: 3px 0;
+  color: #009572;
+  font-weight: bold;
+}
+
+.amazonMerchantText {
+  font-size: 16px;
+}
+
+.otherMerchantText {
+  width: 181px;
+  font-size: 18px;
+}
+
+.merchantNameContainer strong {
+  font-weight: bold;
+}
+
+.merchantLogoContainer img {
+  width: 82px;
+  margin-top: 10px;
+}
+
+.voucherForm {
+}
+
+.userMobileDisplaycontainer {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  color: #000000;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.purchaseAmountHolder.emiAbHeader {
+  padding-top: 5px;
+}
+
+.userMobileDisplaycontainer .linkText {
+  font-size: 15px;
+}
+
+.voucherInputContainer {
+  padding: 16px 0;
+  max-width: 360px;
+  margin: 0 auto;
+}
+.voucherInput {
+  text-align: left !important;
+}
+.fpFormControl {
+  width: 100%;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #fff;
+  border: solid 1px rgba(0, 0, 0, 0.24);
+  text-align: left;
+  padding-left: 42px;
+  padding-right: 8px;
+  position: relative;
+  cursor: pointer;
+  font-weight: bold;
+  color: #000;
+  font-size: 16px;
+}
+
+.fpFormControl::placeholder {
+  font-weight: normal;
+}
+
+.inputContainer {
+  position: relative;
+  margin-bottom: 12px;
+}
+
+.inputIcon {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: 1;
+}
+
+.tncText {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.3px;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.tncLinkText {
+  color: #60b260;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.tncCheckbox {
+  position: relative;
+  top: 1px;
+  margin-right: 5px;
+  display: inline;
+}
+
+.verifyMobileActionContainer {
+  padding: 16px;
+}
+
+.verifyMobileActionContainer button {
+  width: 100%;
+  font-size: 12px;
+}
+
+.purchaseVoucher {
+  max-width: 360px;
+  margin: 0 auto 40px auto;
+}
+
+.purchaseVoucher button {
+  width: 100%;
+  padding: 16px !important;
+  height: auto;
+}
+
+.emiHeader {
+  padding: 21px 12px;
+  text-align: center;
+  color: rgb(0, 149, 114);
+  position: relative;
+}
+
+.purchaseAmountHolder {
+  padding: 12px;
+  color: #000;
+  font-size: 12px;
+}
+
+.amount {
+  font-size: 14px;
+  font-weight: bold;
+  padding: 4px;
+}
+
+.emiModalClose {
+  position: absolute;
+  left: 12px;
+}
+
+/********************************************/
+
+.tncCheckboxContainer {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.tncContents {
+  display: inline-block;
+  width: 90%;
+}
+
+.modalBody {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.agreeTermsContainer {
+  padding: 0 15px 15px 15px;
+}
+
+.agreeTermsContainer button {
+  width: 100%;
+}
+
+.voucherTncModal .mdc-dialog__surface {
+  max-width: 600px;
+}
+
+.emiRoundUpText {
+  text-align: left;
+  font-size: 11px;
+  color: #000;
+  font-weight: 400;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-left: 20px;
+}
+
+.subventionNoticeText {
+  padding-top: 10px;
+  line-height: 16px;
+}
+
+.highlightSubventionText {
+  color: #009572;
+  font-weight: bold;
+}
+
+.minAmountAnnotation {
+  font-size: 12px;
+  margin: 2px 0;
+  font-style: italic;
+}
+
+.nextButton {
+  width: 100%;
+  max-width: 360px;
+}
+
+.emiRecordsContainer {
+}
+
+.emiRowContainer {
+  width: 95%;
+  margin: 0 auto;
+  border-radius: 2px;
+  background-color: #ffffff;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.08),
+    0 12px 22px -10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.emiColumn {
+  display: inline-block;
+  padding: 14px 18px;
+  vertical-align: top;
+}
+
+.emiTenureContainer {
+  border-radius: 2px;
+  background-color: rgba(0, 149, 114, 0.05);
+  box-shadow: 0 12px 22px -10px rgba(0, 0, 0, 0.2);
+  color: #009572;
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.emiTenureMonthContainer {
+  width: 20%;
+  color: rgba(3, 3, 3, 0.43);
+  font-size: 10px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-top: 2px;
+}
+
+.monthlyInstallmentContainer {
+  width: 38%;
+  text-align: right;
+  color: #000000;
+  font-size: 16px;
+  padding-top: 7px;
+}
+
+.monthlyInstallmentAmount {
+  margin-top: 4px;
+  font-weight: bold;
+}
+
+.emiLabel {
+  opacity: 0.6;
+  color: rgba(3, 3, 3, 0.8);
+  font-size: 10px;
+}
+
+.perMonthLabel {
+  color: rgba(3, 3, 3, 0.8);
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.totalEMIContainer {
+  width: 39%;
+  text-align: right;
+  padding-top: 7px;
+  font-size: 18px;
+  color: #000000;
+  position: relative;
+}
+
+.totalCost {
+  color: rgba(3, 3, 3, 0.8);
+  font-size: 10px;
+  opacity: 0.6;
+}
+
+.interestRateContainer {
+  opacity: 0.6;
+  color: rgba(3, 3, 3, 0.8);
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.totalEmiAmountContainer .rupeeIcon {
+  font-weight: normal;
+  font-size: inherit;
+}
+
+.rupeeIcon {
+  font-size: 14px;
+}
+
+.forwardIcon {
+  display: inline-block;
+  font-size: 29px;
+  color: #4a90e2;
+  position: absolute;
+  right: 0px;
+  top: 12px;
+}
+
+.totalEmiAmountContainer {
+  font-weight: bold;
+  padding-top: 8px;
+  padding-left: 20px;
+}
+
+.amountPopupContainer {
+  background-color: #ffffff;
+  position: absolute;
+  width: 100%;
+  max-width: 960px;
+  top: 0;
+  z-index: 1;
+  margin: 0 -8px;
+}
+
+.amountPopupHeader {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.0125em;
+  padding: 21px 12px;
+  text-align: center;
+  color: rgb(0, 149, 114);
+  position: relative;
+}
+
+.amountPopupClose {
+  position: absolute;
+  left: 12px;
+  top: 25px;
+  cursor: pointer;
+}
+
+.amountPopupBody {
+  width: 100%;
+}
+
+.amountPopupBody .inputContainer {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.amountPopupBody .ruppeeIcon {
+  font-size: 18px;
+  top: 14px;
+  left: 16px;
+}
+
+.amountPopupBody .popupInput {
+  padding-left: 35px;
+}
+
+.bottomNoteText {
+  color: #6e6d6e;
+  font-size: 12px;
+  font-size: 11px;
+  letter-spacing: 0.2px;
+}
+
+.amountSuggestionContainer {
+  background-color: #f0f0f0;
+  padding: 25px 5px;
+  margin: 25px 0 0 0;
+}
+
+.sugguestionHeader {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.suggestionContainer {
+  text-align: center;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.amountBadge {
+  display: inline-block;
+  background-color: #ffffff;
+  color: #009572;
+  border-radius: 30px;
+  font-size: 14px;
+  padding: 8px 20px;
+  letter-spacing: 0.5px;
+  border: 1px solid #bfbdbd;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.amountPopupBody .amountConfirmButton {
+  border-radius: 0;
+  width: 100%;
+}
+
+.multiplesErrrorMsg {
+  text-align: center;
+  color: red;
+  margin-bottom: 10px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.interestRateContainer.noCostLabel {
+  color: #ffffff;
+  background-color: #009572;
+  font-weight: bold;
+  font-size: 14px;
+  opacity: 1;
+  display: inline-block;
+  padding: 2px 3px;
+}
+
+/*Styling for Screens bigger than 480px goes here*/
+
+@media screen and (min-width: 480px) {
+  .amountPopupBody .amountConfirmButton {
+    max-width: 300px;
+  }
+}

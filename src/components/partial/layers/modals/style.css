@@ -1,0 +1,21 @@
+.modalContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalBody {
+  display: flex;
+  background-color: #fff;
+  width: 320px;
+}
+
+.aivfTransactionInfoModal {
+  width: 400px;
+}
+
+@media (max-width: 480px) {
+  .aivfTransactionInfoModal {
+    width: 330px;
+  }
+}
